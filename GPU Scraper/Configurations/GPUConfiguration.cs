@@ -8,16 +8,7 @@ namespace GPU_Scraper.Configurations
     {
         public void Configure(EntityTypeBuilder<GPU> builder)
         {
-            builder.Property(x => x.Vendor)
-                .IsRequired();
-
-            builder.Property(x => x.Subvendor)
-                .IsRequired();
-
-            builder.Property(x => x.Model)
-                .IsRequired();
-
-            builder.Property(x => x.ImageURL)   
+            builder.Property(x => x.Name)
                 .IsRequired();
 
             builder.Property(x => x.LowestPrice)

@@ -1,4 +1,4 @@
-﻿using GPU_Scraper.Data.Contracts;
+﻿using GPU_Scraper.Middlewares.Exceptions;
 using GPU_Scraper.Services.Contracts;
 using GPUScraper.Models.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -16,16 +16,13 @@ namespace GPU_Scraper.Controllers
         }
 
         [HttpGet("getall")]
-        public IEnumerable<GPUDto> GetGPUs()
+        public ActionResult Serialize()
         {
-            var result = _scraperService.ScrapGPUs();
+            _scraperService.SerializedToJson();
 
-            if (!result.Any())
-            {
-                throw new NotFoundException();
-            }
-
-            return result;
+            return Ok();
         }
+
+        
     }
 }

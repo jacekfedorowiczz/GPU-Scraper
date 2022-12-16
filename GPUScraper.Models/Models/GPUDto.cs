@@ -8,5 +8,11 @@ namespace GPUScraper.Models.Models
 {
     public class GPUDto
     {
+        public string Model { get; set; }
+        public string ImageURL { get; set; }
+        public double LowestPrice { get; set; }
+        public string LowestPriceShop { get; set; }
+        public double HighestPrice { get; set; }
+        public string HighestPriceShop { get; set; }
     }
 }

@@ -5,48 +5,67 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System;
-using GPU_Scraper.Data.Contracts;
+using System.Globalization;
 
 namespace GPU_Scraper.Data
 {
-    public class XkomScraper : IProductScraper
+    public class XkomScraper
     {
-        private const string XKomBaseURL = "https://www.x-kom.pl/g-5/c/345-karty-graficzne.html?f1702-uklad-graficzny=24826-amd-radeon&f1702-uklad-graficzny=24827-nvidia-geforce&f1702-uklad-graficzny=262522-intel-arc";
-
         public IEnumerable<Product> ScrapProducts()
         {
+            const string XKomBaseURL = "https://www.x-kom.pl/g-5/c/345-karty-graficzne.html?f1702-uklad-graficzny=24826-amd-radeon&f1702-uklad-graficzny=24827-nvidia-geforce&f1702-uklad-graficzny=262522-intel-arc";
             var web = new HtmlWeb();
             var document = web.Load(XKomBaseURL);
+            var Urls = new List<string>() { XKomBaseURL };
 
-            //var products = document.QuerySelectorAll(".sc-3g60u5-0.dNgqYV > a.sc-1h16fat-0.dNrrmO");
-            var products = document.QuerySelectorAll(".gyHdpL");
-            var productsList = new List<Product>(); 
-
-            foreach (var product in products)
+            if (document.QuerySelector("a.kGuktN").Attributes["href"].Value != null)
             {
-                var stringBuilder = new StringBuilder();
-                var productName = product.QuerySelector("a > h3").Attributes["title"].Value;
-                var productHref = stringBuilder.Append("https://x-kom.pl" + product.QuerySelector("a").Attributes["href"].Value).ToString();
-                var productPrice = double.Parse(product.QuerySelector(".gAlJbD > span.guFePW").InnerText);
-
-                productsList.Add(new Product 
-                { 
-                    Name = productName,
-                    URL = productHref, 
-                    Price = productPrice 
-                });
+                var nextPageUrl = "https://x-kom.pl/" + document.QuerySelector("a.kGuktN").Attributes["href"].Value.ToString();
+                while (nextPageUrl != null)
+                {
+                    Urls.Add(nextPageUrl);
+                    var newDocument = web.Load(nextPageUrl);
+                    if (newDocument.QuerySelector(".ieNAbN") != null)
+                    {
+                        break;
+                    }
+                    else
+                    {
+                        nextPageUrl = "https://x-kom.pl/" + newDocument.QuerySelector("a.kGuktN").Attributes["href"].Value.ToString();
+                    }
+                }
             }
-            
-            // dodaj iteracje po stronach (paginacja na stronie bazowej)
 
+            var gpusList = new List<Product>();
+            NumberFormatInfo nfi = new CultureInfo("pl-PL", false).NumberFormat;
 
+            foreach (var url in Urls)
+            {
+                var page = web.Load(url);
+                var products = page.QuerySelectorAll(".gyHdpL");
 
-            if (!productsList.Any())
+                foreach (var product in products)
+                {
+                    var stringBuilder = new StringBuilder();
+                    var productName = String.Join(' ', product.QuerySelector("a > h3").Attributes["title"].Value.ToString().Split(' ').Skip(2));
+                    var productPrice = double.Parse(product.QuerySelector(".gAlJbD > span.guFePW").InnerText.ToString(nfi).Replace("zł", "").Replace("od", ""));
+
+                    gpusList.Add(
+                        new Product
+                        {
+                            Name = productName,
+                            Price = productPrice,
+                            Shop = "X-Kom"
+                        });
+                }
+            }
+
+            if (!gpusList.Any())
             {
                 throw new Exception();
             }
 
-            return productsList;
+            return gpusList;
         }
     }
 }
