@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPUScraper", "GPU Scraper\GPUScraper.csproj", "{1DB83AFE-A849-44E2-B5A4-E12FFDCD786F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPUScraper.Models", "GPUScraper.Models\GPUScraper.Models.csproj", "{FA4AF29F-AE54-444A-96A4-600A5124F647}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DB83AFE-A849-44E2-B5A4-E12FFDCD786F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB83AFE-A849-44E2-B5A4-E12FFDCD786F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB83AFE-A849-44E2-B5A4-E12FFDCD786F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB83AFE-A849-44E2-B5A4-E12FFDCD786F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA4AF29F-AE54-444A-96A4-600A5124F647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4AF29F-AE54-444A-96A4-600A5124F647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4AF29F-AE54-444A-96A4-600A5124F647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4AF29F-AE54-444A-96A4-600A5124F647}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91188275-3197-4CFD-9AA6-66E8A621943E}
+	EndGlobalSection
+EndGlobal
