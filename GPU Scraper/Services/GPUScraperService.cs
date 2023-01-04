@@ -1,86 +1,117 @@
-﻿using GPU_Scraper.Data;
+﻿using AutoMapper;
+using GPU_Scraper.Data;
 using GPU_Scraper.Entities;
 using GPU_Scraper.Middlewares.Exceptions;
 using GPU_Scraper.Services.Contracts;
+using GPUScraper.Maps;
 using GPUScraper.Models.Models;
-using Newtonsoft.Json;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Text.Json;
 
 namespace GPU_Scraper.Services
 {
     public class GPUScraperService : IGPUScraperService
     {
         private readonly GPUScraperDbContext _dbContext;
-        private readonly XkomScraper _xkom;
-        private readonly MoreleScraper _morele;
+        private readonly XkomCrawler _xkom;
+        private readonly MoreleCrawler _morele;
+        private readonly GPUCrawler _crawler;
+        private readonly GPUUpdater _updater;
+        private readonly IMapper _mapper;
 
-        public GPUScraperService(GPUScraperDbContext dbContext, XkomScraper xkom, MoreleScraper morele)
+        public GPUScraperService(GPUScraperDbContext dbContext, XkomCrawler xkom, MoreleCrawler morele, GPUCrawler crawler, GPUUpdater updater, IMapper mapper)
         {
             _dbContext = dbContext;
             _xkom = xkom;
-            _morele= morele;
+            _morele = morele;
+            _crawler = crawler;
+            _updater = updater;
+            _mapper = mapper;
         }
 
-        public IEnumerable<GPU> CrawlGPUs()
+        public async Task<IEnumerable<GPU>> CrawlGPUs()
         {
-            var xkom = ScrapXkom();
-            var morele = ScrapMorele();
-            var gpuList = new List<GPU>();
+            var crawledGPUs = await GetGPUs();
 
-            throw new NotImplementedException();
+            if (!crawledGPUs.Any())
+            {
+                throw new Exception();
+            }
 
+            _dbContext.GPUs.AddRange(crawledGPUs);
+            _dbContext.SaveChanges();
+
+            return crawledGPUs;
         }
 
         public IEnumerable<GPUDto> ScrapGPUs()
         {
-            throw new NotImplementedException();
+            var GPUs = _dbContext.GPUs.ToList();
+            var result = new List<GPUDto>();
+
+            if (!GPUs.Any())
+            {
+                throw new NotFoundException("Nie znaleziono kart w bazie danych! W pierwszej kolejności scrawluj strony internetowe.");
+            }
+
+            foreach (var gpu in GPUs)
+            {
+                var dto = _mapper.Map<GPUDto>(gpu);
+                result.Add(dto);
+            }
+
+            return result;
         }
 
-        private IEnumerable<Product> ScrapXkom()
+        public async Task UpdateGPUs()
         {
-            var resultXkom = _xkom.ScrapProducts();
+            var GPUsFromDatabase = await _dbContext.GPUs.ToListAsync();
+            var crawledGPUs = await GetGPUs();
 
-            if (!resultXkom.Any())
+            if (!GPUsFromDatabase.Any())
+            {
+                throw new NotFoundException("Nie znaleziono kart w bazie danych! W pierwszej kolejności scrawluj strony internetowe.");
+            }
+            else if (!crawledGPUs.Any())
             {
                 throw new Exception();
             }
 
-            return resultXkom;
+            var gpusToUpdate = await _updater.UpdateGPUs(crawledGPUs);
+
+            foreach (var gpu in gpusToUpdate)
+            {
+                var GPU = _dbContext.GPUs.Where(x => x.Name == gpu.Name).FirstOrDefault();
+
+                GPU.LowestPrice = gpu.LowestPrice;
+                GPU.HighestPrice = gpu.HighestPrice;
+            }
+
+            await _dbContext.SaveChangesAsync();
         }
 
-        private IEnumerable<Product> ScrapMorele()
+        public void DeleteGPU(int GPUId)
         {
-            var resultMorele = _morele.ScrapProducts();
+            var GPU = _dbContext.GPUs.Where(x => x.Id == GPUId).FirstOrDefault();
 
-            if (!resultMorele.Any())
+            if (GPU is null)
             {
-                throw new Exception();
+                throw new NotFoundException("Nie znaleziono w bazie danych karty graficznej o podanym Id!");
             }
 
-            return resultMorele;
+            _dbContext.GPUs.Remove(GPU);
+            _dbContext.SaveChanges();
         }
 
-
-        public void SerializedToJson()
+        private async Task<IEnumerable<GPU>> GetGPUs()
         {
-            var xkomGPUs = ScrapXkom();
-            var moreleGPUs = ScrapMorele();
-            var xkom = new List<Product>();
-            var morele = new List<Product>();
-            
+            var xkom = await _xkom.CrawlProducts();
+            var morele = await _morele.CrawlProducts();
+            var crawledGPUs = await _crawler.CrawlNewGPUs(xkom, morele);
 
-            foreach (var gpu in xkomGPUs)
-            {
-                xkom.Add(gpu);
-            }
-            string jsonXkom = JsonConvert.SerializeObject(xkom);
-            File.WriteAllText(@"C:\Users\jacek\Desktop\GPU Scraper\GPU Scraper\GPU Scraper\JSON\xkomSerialized.json", jsonXkom);
-
-            foreach (var gpu in moreleGPUs)
-            {
-                morele.Add(gpu);
-            }
-            string jsonMorele = JsonConvert.SerializeObject(morele);
-            File.WriteAllText(@"C:\Users\jacek\Desktop\GPU Scraper\GPU Scraper\GPU Scraper\JSON\moreleSerialized.json", jsonMorele);
+            return crawledGPUs;
         }
-    }
+    } 
 }
+

@@ -16,16 +16,7 @@ namespace GPU_Scraper.Configurations
                 .HasPrecision(7, 2);
 
             builder.Property(x => x.HighestPrice)
-                .IsRequired()
                 .HasPrecision(7, 2);
-
-            builder.HasOne(x => x.LowestPriceShop)
-                .WithMany(s => s.GPUs)
-                .HasForeignKey(x => x.LowestPriceShopId);
-
-            builder.HasOne(x => x.HighestPriceShop)
-                .WithMany(s => s.GPUs)
-                .HasForeignKey(x => x.HighestPriceShopId);
         }
     }
 }

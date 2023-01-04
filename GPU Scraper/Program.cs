@@ -21,11 +21,13 @@ builder.Services.AddDbContext<GPUScraperDbContext>(options =>
     options.UseSqlServer(cfg.GetConnectionString("ScraperDbLocal"));
 });
 
-builder.Services.AddAutoMapper(builder.GetType().Assembly);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ErrorHandlingMiddleware>();
 builder.Services.AddScoped<IGPUScraperService, GPUScraperService>();
-builder.Services.AddScoped<XkomScraper>();
-builder.Services.AddScoped<MoreleScraper>();
+builder.Services.AddScoped<XkomCrawler>();
+builder.Services.AddScoped<MoreleCrawler>();
+builder.Services.AddScoped<GPUCrawler>();
+builder.Services.AddScoped<GPUUpdater>();
 
 
 var app = builder.Build();
@@ -37,8 +39,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();

@@ -6,12 +6,14 @@ using System.Text;
 using System.Linq;
 using System;
 using System.Globalization;
+using Newtonsoft.Json;
+using GPU_Scraper.Data.Contracts;
 
 namespace GPU_Scraper.Data
 {
-    public class XkomScraper
+    public class XkomCrawler : ICrawler
     {
-        public IEnumerable<Product> ScrapProducts()
+        public async Task<List<Product>> CrawlProducts()
         {
             const string XKomBaseURL = "https://www.x-kom.pl/g-5/c/345-karty-graficzne.html?f1702-uklad-graficzny=24826-amd-radeon&f1702-uklad-graficzny=24827-nvidia-geforce&f1702-uklad-graficzny=262522-intel-arc";
             var web = new HtmlWeb();
@@ -46,8 +48,7 @@ namespace GPU_Scraper.Data
 
                 foreach (var product in products)
                 {
-                    var stringBuilder = new StringBuilder();
-                    var productName = String.Join(' ', product.QuerySelector("a > h3").Attributes["title"].Value.ToString().Split(' ').Skip(2));
+                    var productName = String.Join(' ', product.QuerySelector("a > h3").Attributes["title"].Value.ToString().Split(' ').Skip(3)).Trim();
                     var productPrice = double.Parse(product.QuerySelector(".gAlJbD > span.guFePW").InnerText.ToString(nfi).Replace("zł", "").Replace("od", ""));
 
                     gpusList.Add(

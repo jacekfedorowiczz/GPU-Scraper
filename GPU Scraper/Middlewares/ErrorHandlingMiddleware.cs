@@ -10,22 +10,22 @@ namespace GPU_Scraper.Middlewares
 			{
 				await next.Invoke(context);
 			}
-			catch (NotFoundException notFoundException)
-			{
-
-				context.Response.StatusCode = 404;
-				await context.Response.WriteAsync(notFoundException.Message);
-			}
             catch (BadRequestException badRequestException)
             {
 
                 context.Response.StatusCode = 400;
                 await context.Response.WriteAsync(badRequestException.Message);
             }
-            catch (Exception ex) 
+            catch (NotFoundException notFoundException)
+			{
+
+				context.Response.StatusCode = 404;
+				await context.Response.WriteAsync(notFoundException.Message);
+			}
+            catch (Exception)
             {
                 context.Response.StatusCode = 500;
-                await context.Response.WriteAsync("Coś poszło nie tak. Proszę spróbować później.");
+                await context.Response.WriteAsync("Coś poszło nie tak. Spróbuj ponownie później");
             }
         }
     }
