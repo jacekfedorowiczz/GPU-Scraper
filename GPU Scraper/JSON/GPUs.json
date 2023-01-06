@@ -1,0 +1,2954 @@
+[
+  {
+    "Id": 1,
+    "Name": "Gigabyte GeForce RTX 3060 Eagle OC 12GB GDDR6",
+    "LowestPrice": 1869.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 2,
+    "Name": "Gigabyte GeForce RTX 3050 Eagle OC 8GB GDDR6",
+    "LowestPrice": 1599.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 1701.989990234375,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 3,
+    "Name": "Gainward GeForce RTX 3060 Pegasus 8GB GDDR6",
+    "LowestPrice": 1699.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 4,
+    "Name": "Asus Dual GeForce RTX 3060 Gaming OC 12GB GDDR6",
+    "LowestPrice": 1869.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 5,
+    "Name": "Gigabyte GeForce RTX 3060 Gaming OC 12G",
+    "LowestPrice": 2011.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 6,
+    "Name": "Gigabyte GeForce RTX 3060 Ti Eagle OC 8GB GDDR6",
+    "LowestPrice": 2439.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 7,
+    "Name": "Gigabyte GeForce GTX 1660 SUPER 6GB GDDR6",
+    "LowestPrice": 1299.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 8,
+    "Name": "Gigabyte GeForce GTX 1660 OC 6GB GDDR5",
+    "LowestPrice": 1189.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1249.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 9,
+    "Name": "Gainward GeForce RTX 3060 Ghost 12GB GDDR6",
+    "LowestPrice": 1679.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 1749.0,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 10,
+    "Name": "Manli GeForce RTX 3070 Gallardo 8GB GDDR6",
+    "LowestPrice": 4299.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 11,
+    "Name": "Manli GeForce RTX 3070 Ti 8GB GDDR6X",
+    "LowestPrice": 4779.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 12,
+    "Name": "Gigabyte GeForce GTX 1660 Ti OC 6GB GDDR6",
+    "LowestPrice": 2025.4000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 13,
+    "Name": "Gigabyte GeForce RTX 3070 Gaming OC 8GB GDDR6",
+    "LowestPrice": 3126.85009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 14,
+    "Name": "MSI GeForce GTX 1660 SUPER Gaming X 6GB GDDR6",
+    "LowestPrice": 1844.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 15,
+    "Name": "Asus GeForce GTX 1050 Ti Cerberus OC 4GB GDDR5",
+    "LowestPrice": 895.2000122070312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 16,
+    "Name": "Gigabyte GeForce 1650 D6 OC 4GB GDDR6",
+    "LowestPrice": 1520.260009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 17,
+    "Name": "Gigabyte GeForce RTX 3060 Ti Gaming OC 8GB GDDR6",
+    "LowestPrice": 2449.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 18,
+    "Name": "MSI GeForce GTX 1650 Ventus XS OC 4GB GDDR5",
+    "LowestPrice": 1179.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 19,
+    "Name": "Gigabyte GeForce RTX 3060 Vision OC 12GB GDDR6",
+    "LowestPrice": 2200.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 20,
+    "Name": "Asus Dual GeForce RTX 2060 Gaming Evo OC 6GB GDDR6",
+    "LowestPrice": 1478.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 21,
+    "Name": "Gigabyte GeForce RTX 3050 Gaming OC 8GB GDDR6",
+    "LowestPrice": 1669.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1739.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 22,
+    "Name": "Asus TUF GeForce GTX 1650 Gaming OC 4GB GDDR6",
+    "LowestPrice": 929.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 23,
+    "Name": "Asus TUF GeForce RTX 3080 Gaming OC 10GB GDDR6X",
+    "LowestPrice": 5577.31005859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 24,
+    "Name": "Power Color Radeon RX 6600 Hellhound 8GB GDDR6",
+    "LowestPrice": 1651.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 25,
+    "Name": "Asus TUF GeForce RTX 3060 Gaming OC 12GB GDDR6",
+    "LowestPrice": 2017.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 26,
+    "Name": "Palit GeForce GT 710 2GB DDR3",
+    "LowestPrice": 259.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 259.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 27,
+    "Name": "MSI GeForce RTX 3060 Ti Ventus 2X OCV1 8GB GDDR6",
+    "LowestPrice": 2269.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 28,
+    "Name": "MSI GeForce RTX 3060 Ventus x2 OC 12GB GDDR6",
+    "LowestPrice": 1849.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 29,
+    "Name": "Asus Dual GeForce RTX 3060 Ti Gaming OC V2 8GB GDDR6",
+    "LowestPrice": 2399.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 30,
+    "Name": "Palit GeForce RTX 3060 Ti Dual 8GB GDDR6 LHR",
+    "LowestPrice": 2229.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 31,
+    "Name": "Gigabyte GeForce RTX 3060Ti Vision OC 8GB GDDR6",
+    "LowestPrice": 2544.60009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 32,
+    "Name": "MSI GeForce RTX 3060 Gaming Z Trio 12GB GDDR6",
+    "LowestPrice": 2231.139892578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 33,
+    "Name": "Biostar GeForce GT 1030 4GB DDR4",
+    "LowestPrice": 570.3699951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 34,
+    "Name": "XFX Radeon RX 6600 Speedster SWFT 210 Core Gaming 8GB GDDR6",
+    "LowestPrice": 1996.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 35,
+    "Name": "MSI Radeon RX 6900 XT Gaming Z Trio 16GB GDDR6",
+    "LowestPrice": 12299.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 36,
+    "Name": "KFA2 GeForce GTX 1660 SUPER 1-Click OC 6GB GDDR6",
+    "LowestPrice": 1491.4300537109375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 37,
+    "Name": "MSI GeForce RTX 3050 Ventus 2X 8GB GDDR6",
+    "LowestPrice": 1606.5899658203125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1759.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 38,
+    "Name": "Zotac GeForce RTX 3060 Twin Edge OC 12GB GDDR6",
+    "LowestPrice": 1829.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 39,
+    "Name": "Biostar Radeon RX 560 Gaming OC 4GB GDDR5",
+    "LowestPrice": 724.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 40,
+    "Name": "MSI Radeon RX 6500 XT Mech X2 OC 4GB GDDR6",
+    "LowestPrice": 969.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 41,
+    "Name": "Gigabyte GeForce RTX 3050 Eagle 8GB GDDR6",
+    "LowestPrice": 1479.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 42,
+    "Name": "Palit GeForce RTX 3050 Dual 8GB GDDR6",
+    "LowestPrice": 1552.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1599.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 43,
+    "Name": "Gigabyte GeForce GT 710 2GB GDDR5",
+    "LowestPrice": 376.6199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 44,
+    "Name": "MSI GeForce RTX 3070 Ventus 2X OC 8GB GDDR6",
+    "LowestPrice": 4715.2001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 45,
+    "Name": "Asus Dual GeForce GTX 1650 OC 4GB GDDR5",
+    "LowestPrice": 1084.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 46,
+    "Name": "MSI GeForce GT 1030 2GHD4 LP OC 2GB DDR4",
+    "LowestPrice": 460.6000061035156,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 479.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 47,
+    "Name": "MSI Radeon RX 6600 Mech 2X 8GB GDDR6",
+    "LowestPrice": 1643.02001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 48,
+    "Name": "Asus Phoenix GeForce RTX 3060 12GB GDDR6",
+    "LowestPrice": 1853.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 49,
+    "Name": "Gainward GeForce RTX 3050 Ghost 8GB GDDR6",
+    "LowestPrice": 1559.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1699.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 50,
+    "Name": "Sapphire Radeon RX 6500 XT Pulse 4GB GDDR6",
+    "LowestPrice": 997.780029296875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1139.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 51,
+    "Name": "Zotac GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6",
+    "LowestPrice": 2295.800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 52,
+    "Name": "MSI Radeon RX 6700 XT Mech 2X OC 12GB GDDR6",
+    "LowestPrice": 3861.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 53,
+    "Name": "Palit GeForce GTX 1650 D6 GamingPro 4GB GDDR6",
+    "LowestPrice": 949.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 1001.989990234375,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 54,
+    "Name": "Inno3D GeForce RTX 3070 Twin X2 LHR 8GB GDDR6",
+    "LowestPrice": 3127.360107421875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 55,
+    "Name": "Asus TUF Gaming GeForce RTX 3060 Ti OC 8GB GDDR6X",
+    "LowestPrice": 2455.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 56,
+    "Name": "Asus Dual Radeon RX 6700 XT 12GB GDDR6",
+    "LowestPrice": 2085.800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 57,
+    "Name": "Zotac GeForce RTX 3060 Ti Twin Edge 8GB GDDR6",
+    "LowestPrice": 2199.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 58,
+    "Name": "Biostar Radeon RX 6600 8GB GDDR6",
+    "LowestPrice": 2739.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 59,
+    "Name": "ASRock Radeon RX 6800 XT Taichi X OC 16G B GDDR6",
+    "LowestPrice": 4511.990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 60,
+    "Name": "Sapphire Radeon RX 6700 XT Pulse Gaming OC 12GB GDDR6",
+    "LowestPrice": 4719.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 61,
+    "Name": "Gigabyte GeForce RTX 4090 Gaming OC 24 GB GDDR6X",
+    "LowestPrice": 10314.990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 62,
+    "Name": "Asus Dual GeForce RTX 2060 Gaming Evo 6GB GDDR6",
+    "LowestPrice": 1369.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 63,
+    "Name": "Asus ROG Strix GeForce RTX 3090 Gaming 24GB GDDR6X",
+    "LowestPrice": 12304.9599609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 64,
+    "Name": "AFOX Radeon R5 220 1GB DDR3",
+    "LowestPrice": 199.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 65,
+    "Name": "ASRock Radeon RX 560 Phantom Gaming Elite 4GB GDDR5",
+    "LowestPrice": 849.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 66,
+    "Name": "ASRock Intel Arc A380 Challenger ITX OC 6GB GDDR6",
+    "LowestPrice": 941.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 67,
+    "Name": "Gigabyte Radeon RX 6650 XT Eagle 8GB GDDR6",
+    "LowestPrice": 1943.8399658203125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 68,
+    "Name": "Zotac GeForce RTX 3070 Ti AMP Holo 8GB GDDR6X",
+    "LowestPrice": 4732.35009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 69,
+    "Name": "Gigabyte GeForce RTX 4080 Gaming OC 16GB GDDR6X",
+    "LowestPrice": 6899.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 70,
+    "Name": "Palit GeForce RTX 4090 GameRock OC 24GB GDDR6X",
+    "LowestPrice": 11148.58984375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 71,
+    "Name": "Gigabyte GeForce GT 730 2GB GDDR3",
+    "LowestPrice": 386.8599853515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 72,
+    "Name": "AFOX Radeon R9 370 4GB GDDR5",
+    "LowestPrice": 615.0599975585938,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 73,
+    "Name": "XFX Radeon RX 6400 Speedster SWFT105 4GB GDDR6",
+    "LowestPrice": 778.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 74,
+    "Name": "Gainward GeForce GTX 1650 Pegasus 4GB GDDR5",
+    "LowestPrice": 829.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 889.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 75,
+    "Name": "Gigabyte Radeon RX 6400 D6 Low Profile 4GB GDDR6",
+    "LowestPrice": 960.4299926757812,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1059.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 76,
+    "Name": "Gigabyte Radeon RX 6400 Eagle 4GB GDDR6",
+    "LowestPrice": 979.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 991.989990234375,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 77,
+    "Name": "Gigabyte GeForce GTX 1630 OC Low Profile 4GB GDDR6",
+    "LowestPrice": 1040.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 78,
+    "Name": "Power Color Radeon RX 6500 XT Fighter OC 4GB GDDR6",
+    "LowestPrice": 1099.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 79,
+    "Name": "Asus Phoenix GeForce RTX 3050 8GB GDDR6",
+    "LowestPrice": 1499.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 80,
+    "Name": "Palit GeForce GTX 1660 SUPER GP 6GB GDDR6",
+    "LowestPrice": 1597.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 81,
+    "Name": "Power Color Radeon RX 6650 XT Hellhound 8GB GDDR6",
+    "LowestPrice": 1799.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 82,
+    "Name": "ASRock Arc A770 Phantom Gaming D 8GB OC GDDR6",
+    "LowestPrice": 1941.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 83,
+    "Name": "PNY GeForce RTX 3060 XLR8 Single Fan 12GB GDDR6",
+    "LowestPrice": 2049.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 84,
+    "Name": "MSI Radeon RX 6650 XT Mech 2X OC 8GB GDDR6",
+    "LowestPrice": 2173.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 85,
+    "Name": "AFOX Radeon RX 570 8GB GDDR5",
+    "LowestPrice": 2799.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 86,
+    "Name": "Gigabyte Radeon RX 6750 XT Gaming OC 12GB GDDR6",
+    "LowestPrice": 3180.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 87,
+    "Name": "Power Color Radeon RX 6750 XT Red Devil 12GB GDDR6",
+    "LowestPrice": 3261.389892578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 88,
+    "Name": "XFX Radeon RX 7900 XT Speedster MERC 310 Black Edition 20GB GDDR6",
+    "LowestPrice": 5699.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 89,
+    "Name": "Manli GeForce RTX 3080 Gallardo 10GB GDDR6X",
+    "LowestPrice": 6669.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 90,
+    "Name": "Gigabyte GeForce RTX 4080 Eagle OC 16GB GDDR6X",
+    "LowestPrice": 6729.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 91,
+    "Name": "PNY GeForce RTX 3080 XLR8 Gaming Revel Epic-X 10GB GDDR6X",
+    "LowestPrice": 7349.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 92,
+    "Name": "Gigabyte GeForce GTX 1660 SUPER OC 6GB GDDR6",
+    "LowestPrice": 1826.5699462890625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 93,
+    "Name": "Gigabyte GeForce GT 1030 OC 2GB GDDR5",
+    "LowestPrice": 470.79998779296875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 489.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 94,
+    "Name": "Gigabyte GeForce GTX 1050 Ti D5 4GB GDDR5",
+    "LowestPrice": 1432.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 95,
+    "Name": "Palit GeForce GTX 1050 Ti Storm X 4GB GDDR5",
+    "LowestPrice": 925.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 96,
+    "Name": "MSI GeForce GTX 1660 SUPER Ventus XS OC 6GB GDDR6",
+    "LowestPrice": 1367.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1399.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 97,
+    "Name": "Gigabyte GeForce RTX 3070 Ti Gaming OC 8GB GDDR6X",
+    "LowestPrice": 3424.5,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 3649.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 98,
+    "Name": "Gigabyte GeForce GT 1030 Low Profile 2GB GDDR5",
+    "LowestPrice": 445.010009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 99,
+    "Name": "Gigabyte GeForce GTX 1650 OC 4GB GDDR5",
+    "LowestPrice": 999.7999877929688,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 100,
+    "Name": "Asus Phoenix GeForce GTX 1050 Ti 4GB GDDR5",
+    "LowestPrice": 922.510009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 101,
+    "Name": "MSI GeForce GTX 1050 Ti 4GT Low Profile 4GB GDDR5",
+    "LowestPrice": 1003.030029296875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 102,
+    "Name": "Palit GeForce GTX 1660 SUPER GamingPro 6GB GDDR6",
+    "LowestPrice": 1544.3399658203125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 103,
+    "Name": "Asus TUF Gaming GeForce RTX 3060 Ti Gaming OC V2 8GB GDDR6",
+    "LowestPrice": 2999.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 104,
+    "Name": "Asus Phoenix GeForce GT 1030 OC 2GB GDDR5",
+    "LowestPrice": 497.6499938964844,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 105,
+    "Name": "Gigabyte GeForce GT 710 2GB DDR3",
+    "LowestPrice": 313.4700012207031,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 106,
+    "Name": "Sapphire Radeon RX 5700 XT Pulse 8GB GDDR6",
+    "LowestPrice": 2083.050048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 107,
+    "Name": "Gigabyte GeForce GT 1030 Silent Low Profile 2GB GDDR5",
+    "LowestPrice": 446.4800109863281,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 469.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 108,
+    "Name": "Inno3D GeForce RTX 3060 Twin X2 OC 12GB GDDR6 LHR",
+    "LowestPrice": 1944.9599609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 109,
+    "Name": "MSI GeForce RTX 3060 Gaming X 12GB GDDR6",
+    "LowestPrice": 2528.60009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 110,
+    "Name": "Gigabyte GeForce GTX 1650 D6 Windforce OC 2.0 4GB GDDR6",
+    "LowestPrice": 1074.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 111,
+    "Name": "Gigabyte Radeon RX 6600 Eagle 8GB GDDR6",
+    "LowestPrice": 1459.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 112,
+    "Name": "Gigabyte GeForce GT 710 2GB GDDR5",
+    "LowestPrice": 391.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 113,
+    "Name": "Gigabyte GeForce GT 710 2GB GDDR5",
+    "LowestPrice": 321.4800109863281,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 114,
+    "Name": "MSI GeForce RTX 3070 Ti Gaming X Trio 8GB GDDR6X",
+    "LowestPrice": 3439.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 115,
+    "Name": "Asus TUF GeForce GTX 1650 SUPER Gaming OC 4GB GDDR6",
+    "LowestPrice": 1269.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 116,
+    "Name": "Gigabyte Aorus GeForce RTX 3060 Ti Elite 8GB GDDR6",
+    "LowestPrice": 2783.389892578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 117,
+    "Name": "Asus GeForce GT 1030 Low Profile 2GB GDDR5",
+    "LowestPrice": 471.6400146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 118,
+    "Name": "Gainward GeForce GTX 1050 Ti 4GB GDDR5",
+    "LowestPrice": 989.1699829101562,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 119,
+    "Name": "Asus GeForce GT 1030 2GB GDDR5",
+    "LowestPrice": 590.4500122070312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 120,
+    "Name": "Gigabyte Radeon RX 6600 XT Gaming OC Pro 8GB GDDR6",
+    "LowestPrice": 2945.449951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 121,
+    "Name": "Gainward GeForce RTX 2060 SUPER Ghost 8GB GDDR6",
+    "LowestPrice": 2580.47998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 122,
+    "Name": "Gigabyte GeForce GTX 1650 D6 Windforce OC 4GB GDDR6",
+    "LowestPrice": 945.4600219726562,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 123,
+    "Name": "KFA2 GeForce RTX 3060 1-Click OC 12GB GDDR6",
+    "LowestPrice": 1759.0899658203125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 124,
+    "Name": "Palit GeForce RTX 3070 GamingPro OC 8GB GDDR6",
+    "LowestPrice": 2952.64990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 125,
+    "Name": "Asus GeForce GTX 1050 Ti Cerberus Advanced Edition 4GB GDDR5",
+    "LowestPrice": 893.5499877929688,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 126,
+    "Name": "Palit GeForce RTX 3060 Dual 12GB GDDR6",
+    "LowestPrice": 1793.4000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 127,
+    "Name": "Gigabyte GeForce RTX 3080 Gaming OC 12GB GDDR6X",
+    "LowestPrice": 6809.68994140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 128,
+    "Name": "Asus ROG Strix GeForce RTX 3070 Ti Gaming OC 8GB GDDR6X",
+    "LowestPrice": 3943.449951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 129,
+    "Name": "Gigabyte Radeon RX 580 Gaming 8GB GDDR5",
+    "LowestPrice": 3458.659912109375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 130,
+    "Name": "Asus Dual Radeon RX 6600 Gaming OC 8GB GDDR6",
+    "LowestPrice": 1585.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 131,
+    "Name": "PNY GeForce GTX 1650 Dual Fan 4GB GDDR6",
+    "LowestPrice": 867.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 132,
+    "Name": "Zotac GeForce GT 1030 LP 2GB GDDR5",
+    "LowestPrice": 446.3999938964844,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 133,
+    "Name": "Palit GeForce RTX 3070 JetStream 8GB GDDR6",
+    "LowestPrice": 3013.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 134,
+    "Name": "MSI GeForce GT 1030 AERO ITX 2GD4 OC 2GB DDR4",
+    "LowestPrice": 516.7899780273438,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 135,
+    "Name": "Gigabyte GeForce RTX 3060 Eagle 12GB GDDR6",
+    "LowestPrice": 2503.110107421875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 136,
+    "Name": "MSI GeForce RTX 2060 Ventus GP OC 6GB GDDR6",
+    "LowestPrice": 2738.489990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 137,
+    "Name": "Gigabyte GeForce GT 730 2GB GDDR5",
+    "LowestPrice": 376.55999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 389.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 138,
+    "Name": "Asus GeForce GTX 1650 OC Low Profile 4GB GDDR5",
+    "LowestPrice": 979.530029296875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 139,
+    "Name": "Zotac GeForce RTX 2060 Twin Fan 6GB GDDR6",
+    "LowestPrice": 1590.25,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 140,
+    "Name": "Gigabyte Radeon RX 6600 XT Gaming OC 8GB GDDR6",
+    "LowestPrice": 2670.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 141,
+    "Name": "Gigabyte GeForce GT 1030 Low Profile D4 2GB DDR4",
+    "LowestPrice": 425.8599853515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 142,
+    "Name": "Gigabyte GeForce GTX 1650 D6 OC Low Profile 4GB GDDR6",
+    "LowestPrice": 1021.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 143,
+    "Name": "Gigabyte GeForce 1650 D6 OC 4GB GDDR6",
+    "LowestPrice": 1073.4000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 144,
+    "Name": "Gainward GeForce GTX 1650 D6 Ghost 4GB GDDR6",
+    "LowestPrice": 869.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 890.530029296875,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 145,
+    "Name": "Power Color Radeon RX 6600 XT Fighter 8GB GDDR6",
+    "LowestPrice": 1805.8199462890625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 146,
+    "Name": "Gigabyte Aorus GeForce RTX 3070 Ti Master 8GB GDDR6X",
+    "LowestPrice": 3799.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 147,
+    "Name": "Gigabyte Radeon RX 6700 XT Gaming OC 12GB GDDR6",
+    "LowestPrice": 5798.56982421875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 148,
+    "Name": "Palit GeForce GTX 1660 StormX 6GB GDDR5",
+    "LowestPrice": 999.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 149,
+    "Name": "AFOX Geforce GT 210 1GB DDR2",
+    "LowestPrice": 222.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 150,
+    "Name": "Gigabyte GeForce GTX 1650 OC Low Profile 4GB GDDR5",
+    "LowestPrice": 934.719970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 999.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 151,
+    "Name": "Asus ROG Strix Radeon RX 5700 Gaming OC 8GB GDDR6",
+    "LowestPrice": 5837.6298828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 152,
+    "Name": "Gainward GeForce GT 710 SilentFX 2GB DDR3",
+    "LowestPrice": 256.20001220703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 153,
+    "Name": "Asus TUF GeForce GTX 1660 Ti Gaming Evo OC 6GB GDDR6",
+    "LowestPrice": 1336.18994140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 154,
+    "Name": "MSI GeForce RTX 3080 Gaming Z Trio 10GB GDDR6",
+    "LowestPrice": 4949.72021484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 155,
+    "Name": "Asus TUF GeForce GTX 1650 D6 Gaming OC 4GB GDDR6",
+    "LowestPrice": 1000.77001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 156,
+    "Name": "Asus Dual GeForce GTX 1660 SUPER Evo OC 6GB GDDR6",
+    "LowestPrice": 1628.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 157,
+    "Name": "Palit GeForce RTX 3070 Ti GamingPro OC 8GB GDDR6X",
+    "LowestPrice": 3634.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 158,
+    "Name": "Inno3D GeForce RTX 3070 Ti iChill X4 8GB GDDR6X",
+    "LowestPrice": 3863.830078125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 159,
+    "Name": "Asus TUF GeForce GTX 1650 P Gaming 4GB GDDR6",
+    "LowestPrice": 990.1300048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 160,
+    "Name": "MSI GeForce RTX 3060 Ti Ventus 3X OC 8GB GDDR6",
+    "LowestPrice": 2716.39990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 161,
+    "Name": "Inno3D GeForce RTX 3070 iChill X4 8GB GDDR6 LHR",
+    "LowestPrice": 3524.469970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 162,
+    "Name": "Asus GeForce RTX 3070 TUF 8GB OC V2",
+    "LowestPrice": 3999.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 163,
+    "Name": "Asus ROG Strix Radeon RX 6600 XT Gaming OC 8GB GDDR6",
+    "LowestPrice": 1810.5899658203125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 164,
+    "Name": "Gigabyte GeForce GT 730 2GB DDR3",
+    "LowestPrice": 386.8599853515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 399.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 165,
+    "Name": "Inno3D GeForce RTX 3090 iChill X4 24GB GDDR6X",
+    "LowestPrice": 7122.6298828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 166,
+    "Name": "Asus Phoenix GeForce GTX 1650 D6 OC 4GB GDDR6",
+    "LowestPrice": 958.239990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 167,
+    "Name": "MSI GeForce RTX 3050 Gaming X 8GB GDDR6",
+    "LowestPrice": 1813.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 168,
+    "Name": "Inno3D GeForce RTX 3060Ti Twin X2 OC 8GB GDDR6",
+    "LowestPrice": 2385.52001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 169,
+    "Name": "Zotac GeForce GT 730 Zone 2GB DDR3",
+    "LowestPrice": 479.7900085449219,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 170,
+    "Name": "Sapphire Pulse Radeon 6600 8GB GDDR6",
+    "LowestPrice": 1404.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 171,
+    "Name": "MSI GeForce RTX 2060 Ventus OC 12GB GDDR6",
+    "LowestPrice": 2043.9200439453125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 172,
+    "Name": "Gainward GeForce RTX 3060Ti Ghost 8GB GDDR6",
+    "LowestPrice": 2159.25,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 173,
+    "Name": "Asus TUF Gaming GeForce RTX 3070 Ti Gaming 8GB GDDR6X",
+    "LowestPrice": 3877.39990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 174,
+    "Name": "Zotac GeForce RTX 3090 Trinity 24GB GDDR6X",
+    "LowestPrice": 6630.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 175,
+    "Name": "Biostar Radeon RX 550 4GB GDDR5",
+    "LowestPrice": 682.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 176,
+    "Name": "Asus Phoenix GeForce GTX 1650 OC 4GB GDDR5",
+    "LowestPrice": 997.5900268554688,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 177,
+    "Name": "Asus Phoenix GeForce GTX 1650 SUPER OC 4GB GDDR6",
+    "LowestPrice": 1172.9599609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 178,
+    "Name": "MSI GeForce GTX 1660 SUPER Aero ITX OC 6GB GDDR6",
+    "LowestPrice": 1425.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 179,
+    "Name": "MSI GeForce RTX 3060 Ventus X3 OC 12GB GDDR6",
+    "LowestPrice": 1943.1099853515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 180,
+    "Name": "Gigabyte GeForce RTX 2060 Windforce OC 12GB GDDR6",
+    "LowestPrice": 2029.260009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 181,
+    "Name": "MSI GeForce RTX 3070 Ti Ventus 3X 8GB GDDR6",
+    "LowestPrice": 3666.739990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 182,
+    "Name": "MSI GeForce RTX 3070 Ti Ventus 3X OC 8GB GDDR6X",
+    "LowestPrice": 3850.639892578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 183,
+    "Name": "Power Color Radeon RX 6900 XT Ultimate 16GB GDDR6",
+    "LowestPrice": 5699.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 184,
+    "Name": "Gainward GeForce GT 1030 2GB GDDR5",
+    "LowestPrice": 483.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 185,
+    "Name": "Biostar Radeon RX 550 4GB GDDR5",
+    "LowestPrice": 657.1900024414062,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 186,
+    "Name": "Gigabyte Radeon RX 6500 XT Gaming OC 4GB GDDR6",
+    "LowestPrice": 1219.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 187,
+    "Name": "Biostar GeForce GT 210 1GB DDR3",
+    "LowestPrice": 181.94000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 188,
+    "Name": "PNY GeForce GTX 1650 XLR8 Gaming OC 4GB GDDR5",
+    "LowestPrice": 947.97998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 189,
+    "Name": "Asus Phoenix GeForce GTX 1650 D6 OC 4GB GDDR6",
+    "LowestPrice": 958.239990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 190,
+    "Name": "Gainward GeForce GTX 1660 SUPER Ghost 6GB GDDR6",
+    "LowestPrice": 1149.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 191,
+    "Name": "Biostar Radeon RX 6600 XT 8GB GDDR6",
+    "LowestPrice": 1598.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 192,
+    "Name": "Gainward GeForce RTX 3070 Phantom 8GB GDDR6",
+    "LowestPrice": 3452.2900390625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 193,
+    "Name": "Gigabyte Aorus Radeon RX 6800 XT Master 16GB GDDR6",
+    "LowestPrice": 10336.48046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 194,
+    "Name": "Biostar GeForce GT 730 4GB DDR3",
+    "LowestPrice": 440.2699890136719,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 195,
+    "Name": "Sapphire Nitro+ Radeon RX 6600 XT OC 8GB GDDR6",
+    "LowestPrice": 2239.550048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 196,
+    "Name": "Palit GeForce GT 730 2GB DDR3",
+    "LowestPrice": 309.9100036621094,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 359.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 197,
+    "Name": "Asus GeForce GT 730 2GB GDDR5",
+    "LowestPrice": 379.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 439.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 198,
+    "Name": "Gainward GeForce GT 730 SilentFX 2GB DDR3",
+    "LowestPrice": 462.70001220703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 199,
+    "Name": "Asus TUF GeForce GTX 1650 D6 Gaming 4GB GDDR6",
+    "LowestPrice": 990.1300048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 200,
+    "Name": "Asus TUF GeForce GTX 1660 SUPER Gaming OC 6GB GDDR6",
+    "LowestPrice": 1407.8699951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 201,
+    "Name": "Inno3D GeForce RTX 3070 Twin X2 OC 8GB GDDR6",
+    "LowestPrice": 3131.6298828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 202,
+    "Name": "Gainward GeForce RTX 3070 Phoenix GS 8GB GDDR6",
+    "LowestPrice": 3223.179931640625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 203,
+    "Name": "Asus ROG Strix Radeon RX 6700 XT Gaming OC 12GB GDDR6",
+    "LowestPrice": 4187.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 204,
+    "Name": "Gigabyte Gigabyte Radeon RX 6800 Gaming OC 16G",
+    "LowestPrice": 5299.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 205,
+    "Name": "Gigabyte GeForce RTX 3080 TURBO 10GB GDDR6X",
+    "LowestPrice": 6490.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 206,
+    "Name": "Asus ROG Strix GeForce RTX 3090 Gaming OC 24GB GDDR6X",
+    "LowestPrice": 12127.990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 207,
+    "Name": "AFOX GeForce GT 220 1GB GDDR3",
+    "LowestPrice": 206.41000366210938,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 208,
+    "Name": "Gigabyte GeForce GT 710 2GB DDR3",
+    "LowestPrice": 313.4700012207031,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 209,
+    "Name": "Inno3D GeForce GTX 1660 SUPER Twin X2 6GB GDDR6",
+    "LowestPrice": 1099.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 1276.2900390625,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 210,
+    "Name": "Gigabyte Radeon RX 6500 XT Eagle 4GB GDDR6",
+    "LowestPrice": 1664.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 211,
+    "Name": "Asus Dual GeForce RTX 3060 Ti V2 Mini OC 8GB GDDR6",
+    "LowestPrice": 2297.489990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 212,
+    "Name": "MSI Radeon RX 6700 XT Gaming X 12GB GDDR6",
+    "LowestPrice": 3613.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 213,
+    "Name": "Zotac GeForce RTX 3070 Ti Trinity OC 8GB GDDR6X",
+    "LowestPrice": 4160.3701171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 214,
+    "Name": "Biostar GeForce GT 610 2GB DDR3",
+    "LowestPrice": 300.7900085449219,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 215,
+    "Name": "Asus Dual Radeon RX 6650 XT OC 8GB GDDR6",
+    "LowestPrice": 1749.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 216,
+    "Name": "Asus Dual Radeon RX 6700 XT OC 12GB GDDR6",
+    "LowestPrice": 2279.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 217,
+    "Name": "MSI GeForce RTX 3060 Ti Gaming 8GB GDDR6",
+    "LowestPrice": 2544.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 218,
+    "Name": "Gigabyte GeForce RTX 3070 Eagle 8GB GDDR6",
+    "LowestPrice": 2899.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 219,
+    "Name": "MSI Radeon RX 6700 XT Mech 2X 12GB GDDR6",
+    "LowestPrice": 3550.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 220,
+    "Name": "Gigabyte Radeon RX 6700 XT Eagle 12GB GDDR6",
+    "LowestPrice": 3559.139892578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 221,
+    "Name": "Zotac GeForce RTX 3070 Ti AMP Extreme Holo 8GB GDDR6X",
+    "LowestPrice": 3499.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 4045.070068359375,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 222,
+    "Name": "Asus TUF Radeon RX 6900 XT Gaming OC 16GB GDDR6",
+    "LowestPrice": 4743.8798828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 223,
+    "Name": "MSI Radeon RX 6800 Gaming X Trio 16GB GDDR6",
+    "LowestPrice": 6836.14013671875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 224,
+    "Name": "Gigabyte Aorus GeForce RTX 3080 Xtreme 10GB GDDR6X",
+    "LowestPrice": 5903.18017578125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 225,
+    "Name": "MSI GeForce RTX 4080 Gaming X Trio 16GB GDDR6X",
+    "LowestPrice": 7351.240234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 226,
+    "Name": "Gainward GeForce RTX 3080 Ti Phoenix 12GB GDDR6X",
+    "LowestPrice": 9027.2197265625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 227,
+    "Name": "Inno3D GeForce RTX 3080 Ti iChill X4 12GB GDDR6X",
+    "LowestPrice": 8074.990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 228,
+    "Name": "Asus TUF Gaming GeForce RTX 4090 OC Edition 24GB GDDR6X",
+    "LowestPrice": 11106.7900390625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 229,
+    "Name": "Inno3D GeForce GT 710 2GB DDR3",
+    "LowestPrice": 239.44000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 230,
+    "Name": "Gainward GeForce GT 1030 2GB DDR4",
+    "LowestPrice": 478.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 231,
+    "Name": "Zotac GeForce RTX 3080 Ti Trinity 12GB GDDR6X",
+    "LowestPrice": 5123.47998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 232,
+    "Name": "MSI Radeon RX 6750 XT Gaming X Trio 12GB GDDR6",
+    "LowestPrice": 3554.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 233,
+    "Name": "AFOX Radeon HD 5450 1GB DDR3",
+    "LowestPrice": 204.1999969482422,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 234,
+    "Name": "AFOX GeForce GT 210 1GB DDR3",
+    "LowestPrice": 207.5399932861328,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 235,
+    "Name": "AFOX GeForce GT 240 1GB DDR3",
+    "LowestPrice": 207.60000610351562,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 236,
+    "Name": "Palit GeForce GT 1030 2GB DDR4",
+    "LowestPrice": 459.2099914550781,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 499.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 237,
+    "Name": "Gainward GeForce GTX 1630 Ghost 4GB GDDR6",
+    "LowestPrice": 762.25,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 238,
+    "Name": "HP Radeon R7 430 2GB GDDR5",
+    "LowestPrice": 774.4199829101562,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 239,
+    "Name": "Zotac GeForce GTX 1650 AMP Core 4GB GDDR6",
+    "LowestPrice": 866.8099975585938,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 240,
+    "Name": "Asus Dual GeForce GTX 1650 4GB GDDR5",
+    "LowestPrice": 944.2000122070312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 241,
+    "Name": "HP Radeon RX 550 X Low Profile 4GB GDDR5",
+    "LowestPrice": 962.1599731445312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 242,
+    "Name": "Asus TUF Gaming Radeon RX 6500 XT OC 4GB GDDR6",
+    "LowestPrice": 1180.1400146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 243,
+    "Name": "Asus Dual GeForce RTX 3050 OC 8GB GDDR6",
+    "LowestPrice": 1509.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 244,
+    "Name": "Zotac GeForce RTX 3050 Twin Edge OC 8GB GDDR6",
+    "LowestPrice": 1546.56005859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 245,
+    "Name": "Power Color Radeon RX 6650 XT Hellhound Spectral White 8GB GDDR6",
+    "LowestPrice": 1670.219970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 246,
+    "Name": "Palit GeForce GTX 1660 Ti StormX 6GB GDDR6",
+    "LowestPrice": 1705.8599853515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 247,
+    "Name": "EVGA GeForce GTX 1660 SUPER SC Ultra Gaming 6GB GDDR6",
+    "LowestPrice": 1718.8499755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 248,
+    "Name": "Zotac GeForce RTX 3060 Twin Edge 12GB GDDR6",
+    "LowestPrice": 1699.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 1746.1600341796875,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 249,
+    "Name": "MSI Radeon RX 6650 XT Gaming X 8GB GDDR6",
+    "LowestPrice": 2177.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 250,
+    "Name": "ASRock Radeon RX 6700 XT Challenger D OC 12GB GDDR6",
+    "LowestPrice": 2282.02001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 251,
+    "Name": "Asus TUF GeForce RTX 3060 Gaming 12GB GDDR6",
+    "LowestPrice": 2468.2099609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 252,
+    "Name": "Zotac GeForce RTX 2060 Twin Fan 12GB GDDR6",
+    "LowestPrice": 2881.429931640625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 253,
+    "Name": "Zotac GeForce RTX 3070 Twin Edge 8GB GDDR6",
+    "LowestPrice": 3266.97998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 254,
+    "Name": "Asus Dual GeForce RTX 3070 Gaming 8GB GDDR6",
+    "LowestPrice": 3596.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 255,
+    "Name": "ASRock Radeon RX 6700 XT Challenger Pro 12 OC 12GB GDDR6",
+    "LowestPrice": 4059.5,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 256,
+    "Name": "EVGA GeForce RTX 3070 Ti FTW3 Ultra Gaming LHR 8GB GDDR6X",
+    "LowestPrice": 5204.85986328125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 257,
+    "Name": "XFX Radeon RX 7900 XT Speedster MERC 310 20GB GDDR6",
+    "LowestPrice": 5417.2001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 258,
+    "Name": "AFOX GeForce GTX 1050Ti 4GB GDDR5",
+    "LowestPrice": 1580.969970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 259,
+    "Name": "EVGA GeForce RTX3050 XC Gaming 8GB GDDR6",
+    "LowestPrice": 1902.4599609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 260,
+    "Name": "Palit GeForce RTX 3060 StormX 12GB GDDR6",
+    "LowestPrice": 2895.919921875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 261,
+    "Name": "EVGA GeForce RTX 3070 FTW3 Ultra LHR 8GB GDDR6",
+    "LowestPrice": 3780.77001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 262,
+    "Name": "XFX Radeon 6650XT Speedster Quick308 Ultra 8GB GDDR6",
+    "LowestPrice": 2069.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 263,
+    "Name": "Asus Dual Radeon RX 6750 XT OC 12GB GDDR6",
+    "LowestPrice": 2449.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 264,
+    "Name": "Gigabyte Aorus GeForce RTX 4080 Xtreme Waterforce WB 16GB GDDR6X",
+    "LowestPrice": 7578.89990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 265,
+    "Name": "AFOX Radeon HD 5450 1GB DDR3",
+    "LowestPrice": 204.1999969482422,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 266,
+    "Name": "AFOX Radeon HD 5450 2GB DDR3",
+    "LowestPrice": 208.02000427246094,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 267,
+    "Name": "Zotac GeForce GT 710 2GB DDR3",
+    "LowestPrice": 253.39999389648438,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 268,
+    "Name": "AFOX Radeon HD 6450 2GB DDR3",
+    "LowestPrice": 264.80999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 269,
+    "Name": "AFOX GeForce GT 610 1GB DDR3",
+    "LowestPrice": 286.4200134277344,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 270,
+    "Name": "Power Color Radeon R7 240 2GB GDDR5",
+    "LowestPrice": 310.0400085449219,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 271,
+    "Name": "AFOX GeForce GT 710 2GB DDR3",
+    "LowestPrice": 340.19000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 272,
+    "Name": "Asus GeForce GT 730 EVO 2GB DDR3",
+    "LowestPrice": 354.6000061035156,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 273,
+    "Name": "MSI GeForce GT 730 2GB DDR3",
+    "LowestPrice": 357.7900085449219,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 369.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 274,
+    "Name": "Inno3D GeForce GT 730 2GB DDR3",
+    "LowestPrice": 364.6400146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 275,
+    "Name": "AFOX Geforce GT 730 Low Profile 4GB DDR3",
+    "LowestPrice": 368.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 276,
+    "Name": "Asus GeForce GT 730 2GB GDDR5",
+    "LowestPrice": 397.19000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 439.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 277,
+    "Name": "AFOX GeForce GT 420 4GB DDR3",
+    "LowestPrice": 410.8699951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 278,
+    "Name": "Inno3D GeForce GT 1030 2GB GDDR5",
+    "LowestPrice": 415.19000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 279,
+    "Name": "Asus GeForce GT 730 2GB GDDR5",
+    "LowestPrice": 422.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 439.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 280,
+    "Name": "AFOX Geforce GT730 2GB GDDR5",
+    "LowestPrice": 447.3999938964844,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 281,
+    "Name": "AFOX GeForce GT 1030 2GB GDDR5",
+    "LowestPrice": 535.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 282,
+    "Name": "AFOX Radeon RX 560 4GB GDDR5",
+    "LowestPrice": 639.02001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 283,
+    "Name": "AFOX Geforce GTX 750 2GB GDDR5",
+    "LowestPrice": 668.72998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 284,
+    "Name": "AFOX Radeon R9 370 4GB GDDR5",
+    "LowestPrice": 691.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 285,
+    "Name": "Asus Dual Radeon RX 6400 4GB GDDR6",
+    "LowestPrice": 727.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 286,
+    "Name": "MSI Radeon RX 6400 Aero ITX 4GB GDDR6",
+    "LowestPrice": 767.219970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 799.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 287,
+    "Name": "Sapphire Pulse Radeon RX 6400 Gaming 4GB GDDR6",
+    "LowestPrice": 773.4500122070312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 288,
+    "Name": "Asus Dual Radeon RX 560 4GB GDDR5",
+    "LowestPrice": 800.8900146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 289,
+    "Name": "Asus RX 560 ROG Strix 4GB GDDR5",
+    "LowestPrice": 800.8900146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 290,
+    "Name": "Asus Radeon RX 6400 Phoenix 4GB GDDR6",
+    "LowestPrice": 815.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 291,
+    "Name": "Palit GeForce GTX 1630 Dual 4GB GDDR6",
+    "LowestPrice": 830.5,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 292,
+    "Name": "ASRock Radeon RX 6400 Challenger ITX 4GB GDDR6",
+    "LowestPrice": 831.25,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 293,
+    "Name": "Zotac GeForce GTX 1630 Gaming 4GB GDDR6",
+    "LowestPrice": 838.5999755859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 294,
+    "Name": "Asus Phoenix GeForce GTX 1630 4GB GDDR6",
+    "LowestPrice": 848.5700073242188,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 295,
+    "Name": "Power Color Radeon RX 6400 Low Profile 4GB GDDR6",
+    "LowestPrice": 856.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 296,
+    "Name": "AFOX GeForce GTX 750 4GB GDDR5",
+    "LowestPrice": 870.8800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 297,
+    "Name": "ASRock Radeon RX 6500 XT Phantom Gaming D OC 4GB GDDR6",
+    "LowestPrice": 959.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1029.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 298,
+    "Name": "KFA2 GeForce GTX 1650 Ex Plus 4GB GDDR6",
+    "LowestPrice": 973.4500122070312,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 299,
+    "Name": "AFOX GeForce GTX 750 Ti 4GB GDDR5",
+    "LowestPrice": 983.3800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 300,
+    "Name": "AFOX Radeon RX 550 4GB GDDR5",
+    "LowestPrice": 993.4000244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 301,
+    "Name": "Power Color Radeon RX 6500 XT 4GB GDDR6",
+    "LowestPrice": 1055.010009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 302,
+    "Name": "Power Color Radeon RX 6400 ITX 4GB GDDR6",
+    "LowestPrice": 1069.6500244140625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 303,
+    "Name": "ASRock Radeon RX 6500 XT Challenger ITX 4GB GDDR6",
+    "LowestPrice": 1172.0400390625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 304,
+    "Name": "Asus TUF GeForce GTX 1660 Ti Gaming Evo 6GB GDDR6",
+    "LowestPrice": 1418.6600341796875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 305,
+    "Name": "Asus Dual GeForce GTX 1660 SUPER Evo 6GB GDDR6",
+    "LowestPrice": 1420.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 306,
+    "Name": "Intel Arc A750 Limited Edition 8GB GDDR6",
+    "LowestPrice": 1479.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 307,
+    "Name": "Zotac GeForce RTX 3050 Twin Edge 8GB GDDR6",
+    "LowestPrice": 1489.3900146484375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 308,
+    "Name": "PNY GeForce RTX 3050 Verto Dual Fan Edition 8GB GDDR6",
+    "LowestPrice": 1508.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 309,
+    "Name": "Asus Phoenix GeForce GTX 1660 SUPER OC 6GB GDDR6",
+    "LowestPrice": 1549.699951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 310,
+    "Name": "ASRock Arc A750 Challenger D OC 8GB GDDR6",
+    "LowestPrice": 1571.8199462890625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1659.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 311,
+    "Name": "Palit GeForce RTX 3060 StormX 8GB GDDR6",
+    "LowestPrice": 1591.800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 312,
+    "Name": "Asus Dual GeForce RTX 2060 Evo 12GB GDDR6",
+    "LowestPrice": 1601.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 313,
+    "Name": "Asus Dual RTX 3050 Gaming 8GB GDDR6",
+    "LowestPrice": 1608.9200439453125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 314,
+    "Name": "Zotac GeForce RTX 3050 AMP 8GB GDDR6",
+    "LowestPrice": 1610.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 315,
+    "Name": "MSI GeForce RTX 3050 Aero ITX 8GB GDDR6",
+    "LowestPrice": 1645.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 316,
+    "Name": "Sapphire Radeon RX 6650 XT Pulse Gaming OC 8GB GDDR6",
+    "LowestPrice": 1664.9599609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 1739.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 317,
+    "Name": "Asus GeForce RTX 2060 Dual EVO OC 12GB GDDR6",
+    "LowestPrice": 1742.56005859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 318,
+    "Name": "AFOX Radeon RX 6600 XT 8GB GDDR6",
+    "LowestPrice": 1833.260009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 319,
+    "Name": "XFX Radeon RX 6650 XT Speedster MERC 8GB GDDR6",
+    "LowestPrice": 1852.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 320,
+    "Name": "Gigabyte GeForce RTX 3060 Windforce OC LHR 12GB GDDR6",
+    "LowestPrice": 1856.699951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 321,
+    "Name": "Gigabyte GeForce RTX 3050 Elite 8GB GDDR6",
+    "LowestPrice": 1856.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 322,
+    "Name": "MSI GeForce RTX 3060 Aero ITX OC 12GB GDDR6",
+    "LowestPrice": 1965.199951171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 323,
+    "Name": "Sapphire Nitro+ Radeon RX 6650 XT Gaming OC 8GB GDDR6",
+    "LowestPrice": 1982.010009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 324,
+    "Name": "PNY GeForce RTX 3060 Verto Dual Fan 12GB GDDR6",
+    "LowestPrice": 1985.9200439453125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 325,
+    "Name": "Gigabyte Radeon RX 6650 XT Gaming OC 8GB GDDR6",
+    "LowestPrice": 2350.800048828125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 326,
+    "Name": "KFA2 GeForce RTX 3060 Ti PG190 OC 8GB GDDR6",
+    "LowestPrice": 2410.97998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 327,
+    "Name": "Gigabyte GeForce RTX 3060 Ti Windforce OC LHR 8GB GDDR6",
+    "LowestPrice": 2527.820068359375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 328,
+    "Name": "MSI GeForce RTX 3060 Aero ITX 12GB GDDR6",
+    "LowestPrice": 2654.919921875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 329,
+    "Name": "Sapphire Radeon RX 6750 XT Pulse Gaming OC 12GB GDDR6",
+    "LowestPrice": 2687.580078125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 330,
+    "Name": "MSI GeForce RTX 3060Ti Ventus 2X 8GB GDDR6",
+    "LowestPrice": 2701.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 331,
+    "Name": "EVGA GeForce RTX 3060 Ti XC Gaming LHR 8GB GDDR6",
+    "LowestPrice": 2957.0400390625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 332,
+    "Name": "Zotac GeForce RTX 3070 AMP Holo 8GB GDDR6",
+    "LowestPrice": 3090.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 333,
+    "Name": "Inno3D GeForce RTX 3060 Ti iChill X3 8GB GDDR6",
+    "LowestPrice": 3194.6201171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 334,
+    "Name": "AFOX Radeon RX 5500 XT 8GB GDDR6",
+    "LowestPrice": 3234.179931640625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 335,
+    "Name": "XFX Radeon RX 6750 XT Speedster QICK 319 Ultra Gaming 12GB GDDR6",
+    "LowestPrice": 3295.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 336,
+    "Name": "XFX Radeon RX 6750 XT Speedster MERC 319 12GB GDDR6",
+    "LowestPrice": 3312.989990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 337,
+    "Name": "Zotac GeForce RTX 3070 Twin Edge OC White Edition 8GB GDDR6",
+    "LowestPrice": 3325.659912109375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 338,
+    "Name": "MSI Radeon RX 6750 XT Mech 2X OC 12GB GDDR6",
+    "LowestPrice": 3517.81005859375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 339,
+    "Name": "Inno3D GeForce RTX 3070 iChill X3 8GB GDDR6 LHR",
+    "LowestPrice": 3524.469970703125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 340,
+    "Name": "Zotac GeForce RTX 3070 Ti Trinity 8GB GDDR6X",
+    "LowestPrice": 3537.22998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 341,
+    "Name": "MSI GeForce RTX 3070 Ventus 3X Plus 8G OC LHR 8GB GDDR6",
+    "LowestPrice": 3666.739990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 342,
+    "Name": "Zotac GeForce RTX 3070 Twin Edge OC 8GB GDDR6",
+    "LowestPrice": 3670.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 343,
+    "Name": "EVGA GeForce RTX 3070 XC3 Ultra Gaming LHR 8GB GDDR6",
+    "LowestPrice": 3985.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 344,
+    "Name": "Sapphire GearBox 500",
+    "LowestPrice": 4364.7998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 345,
+    "Name": "MSI GeForce RTX 3070 Gaming Trio Plus 8GB GDDR6",
+    "LowestPrice": 4454.97998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 346,
+    "Name": "MSI GeForce RTX 3070 Ventus 2X OC 8GB GDDR6",
+    "LowestPrice": 4715.2001953125,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 347,
+    "Name": "EVGA GeForce RTX 3070 Ti XC3 Ultra Gaming LHR 8GB GDDR6X",
+    "LowestPrice": 4824.3701171875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 348,
+    "Name": "Sapphire Radeon RX 7900 XT 20GB GDDR6",
+    "LowestPrice": 5040.169921875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 5249.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 349,
+    "Name": "ASRock Radeon RX 7900 XT 20GB GDDR6",
+    "LowestPrice": 5247.990234375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 5249.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 350,
+    "Name": "Gigabyte Radeon RX 7900 XT 20GB GDDR6",
+    "LowestPrice": 5389.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 351,
+    "Name": "Asus Rog Strix LC Radeon RX 6900 XT Gaming 16GB GDDR6",
+    "LowestPrice": 5599.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 352,
+    "Name": "Palit GeForce RTX 4080 GameRock OC 16GB GDDR6X",
+    "LowestPrice": 6579.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 353,
+    "Name": "Zotac Gaming GeForce RTX 4080 Trinity 16GB GDDR6X",
+    "LowestPrice": 6699.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 354,
+    "Name": "Zotac Gaming GeForce RTX 4080 Trinity OC 16GB GDDR6X",
+    "LowestPrice": 6820.10009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 355,
+    "Name": "Palit GeForce RTX 4080 GameRock 16GB GDDR6X",
+    "LowestPrice": 6899.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": 6899.0,
+    "HighestPriceShop": "X-Kom"
+  },
+  {
+    "Id": 356,
+    "Name": "Gigabyte GeForce RTX 4080 Aero OC 16GB GDDR6X",
+    "LowestPrice": 6950.66015625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 357,
+    "Name": "Zotac Gaming GeForce RTX 4080 AMP Extreme AIRO 16GB GDDR6X",
+    "LowestPrice": 7132.7998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 358,
+    "Name": "Asus TUF Gaming GeForce RTX 4080 16GB GDDR6X",
+    "LowestPrice": 7196.7998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 359,
+    "Name": "Asus TUF Gaming GeForce RTX 4080 OC Edition 16GB GDDR6X",
+    "LowestPrice": 7199.7998046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 360,
+    "Name": "Gigabyte Aorus GeForce RTX 4080 Master 16GB GDDR6X",
+    "LowestPrice": 7224.14013671875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 361,
+    "Name": "Gainward GeForce RTX 4080 Phantom 16GB GDDR6X",
+    "LowestPrice": 7339.02978515625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 362,
+    "Name": "Inno3D GeForce RTX 4080 iCHILL X3 16GB GDDR6X",
+    "LowestPrice": 6999.0,
+    "LowestPriceShop": "X-Kom",
+    "HighestPrice": 7363.5400390625,
+    "HighestPriceShop": "Morele"
+  },
+  {
+    "Id": 363,
+    "Name": "XFX Radeon RX 7900 XTX Speedster MERC 310 Black Edition 24GB GDDR6",
+    "LowestPrice": 7461.66015625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 364,
+    "Name": "MSI GeForce RTX 4080 Ventus 3X OC 16GB GDDR6X",
+    "LowestPrice": 7945.5498046875,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 365,
+    "Name": "Gainward GeForce RTX 3080 Phantom 10GB GDDR6X",
+    "LowestPrice": 7232.35009765625,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 366,
+    "Name": "Zotac Gaming GeForce RTX 4090 Trinity 24GB GDDR6X",
+    "LowestPrice": 10599.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 367,
+    "Name": "Zotac Gaming GeForce RTX 4090 Trinity OC 24GB GDDR6X",
+    "LowestPrice": 10699.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 368,
+    "Name": "MSI GeForce RTX 3090 Ti Black Trio 24GB GDDR6X",
+    "LowestPrice": 11168.849609375,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  },
+  {
+    "Id": 369,
+    "Name": "Zotac Gaming GeForce RTX 4090 AMP Extreme AIRO 24GB GDDR6X",
+    "LowestPrice": 11936.0,
+    "LowestPriceShop": "Morele",
+    "HighestPrice": null,
+    "HighestPriceShop": null
+  }
+]

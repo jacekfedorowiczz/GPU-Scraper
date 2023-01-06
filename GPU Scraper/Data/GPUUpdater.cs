@@ -14,7 +14,7 @@ namespace GPU_Scraper.Data
 
         public async Task<List<GPU>> UpdateGPUs(IEnumerable<GPU> crawledGPUs)
         {
-            var GPUsFromDatabase = _dbContext.GPUs.ToList();
+            var GPUsFromDatabase = await _dbContext.GPUs.ToListAsync();
             var updatedGPUs = new List<GPU>();
 
             if (!GPUsFromDatabase.Any())
@@ -31,7 +31,7 @@ namespace GPU_Scraper.Data
                     continue;
                 }
                 
-                var result = await UpdateGPUPrices(GPU, crawledGPU);
+                var result = UpdateGPUPrices(GPU, crawledGPU);
                 updatedGPUs.Add(result);
             }
 
@@ -43,7 +43,7 @@ namespace GPU_Scraper.Data
             return updatedGPUs;
         }
 
-        private async Task<GPU> UpdateGPUPrices(GPU gpu, GPU crawledGPU)
+        private GPU UpdateGPUPrices(GPU gpu, GPU crawledGPU)
         {
             if (gpu.LowestPrice == crawledGPU.LowestPrice && gpu.HighestPrice == crawledGPU.HighestPrice)
             {
