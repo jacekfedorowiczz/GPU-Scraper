@@ -39,15 +39,15 @@ namespace GPU_Scraper.Services
                 throw new Exception();
             }
 
-            _dbContext.GPUs.AddRange(crawledGPUs);
-            _dbContext.SaveChanges();
+            await _dbContext.GPUs.AddRangeAsync(crawledGPUs);
+            await _dbContext.SaveChangesAsync();
 
             return crawledGPUs;
         }
 
-        public IEnumerable<GPUDto> ScrapGPUs()
+        public async Task<IEnumerable<GPUDto>> ScrapGPUs()
         {
-            var GPUs = _dbContext.GPUs.ToList();
+            var GPUs = await _dbContext.GPUs.ToListAsync();
             var result = new List<GPUDto>();
 
             if (!GPUs.Any())
@@ -64,7 +64,7 @@ namespace GPU_Scraper.Services
             return result;
         }
 
-        public async Task UpdateGPUs()
+        public async Task UpdatePrices()
         {
             var GPUsFromDatabase = await _dbContext.GPUs.ToListAsync();
             var crawledGPUs = await GetGPUs();
@@ -112,6 +112,7 @@ namespace GPU_Scraper.Services
 
             return crawledGPUs;
         }
+
     } 
 }
 

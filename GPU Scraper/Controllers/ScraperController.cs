@@ -30,6 +30,13 @@ namespace GPU_Scraper.Controllers
             return Ok(result);
         }
 
+        [HttpGet("updateprices")]
+        public async Task<ActionResult> UpdatePrices()
+        {
+            await _scraperService.UpdatePrices();
+            return Ok();
+        }
+
         [HttpDelete]
         public ActionResult DeleteGPU([FromQuery]int GPUId)
         {

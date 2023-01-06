@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GPUScraper.Migrations
 {
     [DbContext(typeof(GPUScraperDbContext))]
-    [Migration("20230104204856_Init")]
+    [Migration("20230105001410_Init")]
     partial class Init
     {
         /// <inheritdoc />
