@@ -20,6 +20,7 @@ namespace GPUScraper.Controllers
 
         [HttpGet("get")]
         [Authorize]
+        [ResponseCache(Duration = 300)]
         public ActionResult GetJson()
         {
             _fileService.SerializeToJson();
