@@ -7,8 +7,11 @@ using GPUScraper.Maps;
 using GPUScraper.Models.Models;
 using GPUScraper.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text.Json;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace GPU_Scraper.Services
 {
@@ -55,25 +58,40 @@ namespace GPU_Scraper.Services
             }
         }
 
-        public async Task<IEnumerable<GPUDto>> GetGPUs(string searchPhrase)
+        public async Task<PageResult<GPUDto>> GetGPUs(GPUQuery query)
         {
-            var GPUs = await _dbContext.GPUs
-                                    .Where(x => searchPhrase == null || (x.Name.ToLower().Contains(searchPhrase.ToLower())))
-                                    .ToListAsync();
-            var result = new List<GPUDto>();
+            var baseQuery = _dbContext.GPUs
+                                    .Where(x => query.searchPhrase == null || (x.Name.ToLower().Contains(query.searchPhrase.ToLower())));
+
+            if (!string.IsNullOrEmpty(query.SortBy))
+            {
+                var columnSelectors = new Dictionary<string, Expression<Func<GPU, object>>>()
+                {
+                    {nameof(GPU.Name), x => x.Name },
+                    {nameof(GPU.LowestPrice), x => x.LowestPrice },
+                    {nameof(GPU.HighestPrice), x => x.HighestPrice }
+                };
+                var selectedColumn = columnSelectors[query.SortBy];
+
+                baseQuery = query.SortDirection == SortDirection.ASC 
+                    ? baseQuery.OrderBy(selectedColumn)
+                    : baseQuery.OrderByDescending(selectedColumn);
+            }
+
+            var GPUs = baseQuery
+                            .Skip(query.pageSize * (query.pageNumber - 1))
+                            .Take(query.pageSize)
+                            .ToList();
+
+            var totalGPUsCount = GPUs.Count();
 
             if (!GPUs.Any())
             {
                 throw new NotFoundException("Nie znaleziono kart w bazie danych! W pierwszej kolejności scrawluj strony internetowe.");
             }
 
-            // dodaj paginację
-            // Sortowanie: Nazwa, Cena
-
-
-
-
-            var dto = _mapper.Map<List<GPUDto>>(GPUs);
+            var dtos = _mapper.Map<List<GPUDto>>(GPUs);
+            var result = new PageResult<GPUDto>(dtos, totalGPUsCount, query.pageSize, query.pageNumber);
 
             return result;
         }

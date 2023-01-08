@@ -72,6 +72,7 @@ builder.Services.AddScoped<GPUUpdater>();
 
 builder.Services.AddScoped<IValidator<RegisterUserDto>, RegisterUserDtoValidator>();
 builder.Services.AddScoped<IValidator<LoginUserDto>, LoginUserDtoValidator>();
+builder.Services.AddScoped<IValidator<GPUQuery>, GPUQueryValidator>();
 
 builder.Services.AddScoped<Seeder>();
 
