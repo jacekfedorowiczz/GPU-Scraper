@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GPU_Scraper.Controllers
 {
+    [ApiController]
     [Route("api/scraper")]
     public class ScraperController : ControllerBase
     {
@@ -17,9 +18,9 @@ namespace GPU_Scraper.Controllers
         }
 
         [HttpGet("scrap")]
-        public ActionResult<IEnumerable<GPUDto>> GetGPUs([FromQuery]string searchPhrase)
+        public ActionResult<IEnumerable<GPUDto>> GetGPUs([FromQuery]GPUQuery query)
         {
-            var result = _scraperService.GetGPUs(searchPhrase);
+            var result = _scraperService.GetGPUs(query);
             return Ok(result);
         }
 

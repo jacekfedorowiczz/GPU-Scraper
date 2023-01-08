@@ -6,7 +6,7 @@ namespace GPU_Scraper.Services.Contracts
     public interface IGPUScraperService
     {
         Task CrawlGPUs();
-        Task<IEnumerable<GPUDto>> GetGPUs(string searchPhrase);
+        Task<PageResult<GPUDto>> GetGPUs(GPUQuery query);
         void DeleteGPU(int GPUId);
     }
 }
