@@ -17,23 +17,16 @@ namespace GPU_Scraper.Controllers
         }
 
         [HttpGet("scrap")]
-        public ActionResult<IEnumerable<GPUDto>> ScrapGPUs()
+        public ActionResult<IEnumerable<GPUDto>> GetGPUs([FromQuery]string searchPhrase)
         {
-            var result = _scraperService.ScrapGPUs();
+            var result = _scraperService.GetGPUs(searchPhrase);
             return Ok(result);
         }
 
         [HttpGet("crawl")]
-        public async Task<ActionResult<IEnumerable<GPU>>> CrawlGPUs()
+        public async Task<ActionResult> CrawlGPUs()
         {
-            var result = await _scraperService.CrawlGPUs();
-            return Ok(result);
-        }
-
-        [HttpGet("updateprices")]
-        public async Task<ActionResult> UpdatePrices()
-        {
-            await _scraperService.UpdatePrices();
+            await _scraperService.CrawlGPUs();
             return Ok();
         }
 

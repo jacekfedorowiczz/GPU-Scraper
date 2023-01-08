@@ -1,4 +1,5 @@
 ﻿using GPU_Scraper.Entities;
+using GPU_Scraper.Middlewares.Exceptions;
 using GPUScraper.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
@@ -21,8 +22,13 @@ namespace GPUScraper.Services
             if (!File.Exists(filePath))
             {
                 var GPUs = _dbContext.GPUs.ToList();
-                var serialized = JsonConvert.SerializeObject(GPUs);
 
+                if (!GPUs.Any())
+                {
+                    throw new NotFoundException("Nie znaleziono kart graficznych w bazie danych.");
+                }
+
+                var serialized = JsonConvert.SerializeObject(GPUs);
                 File.WriteAllText(filePath, serialized);
             }
         }

@@ -5,9 +5,8 @@ namespace GPU_Scraper.Services.Contracts
 {
     public interface IGPUScraperService
     {
-        Task<IEnumerable<GPU>> CrawlGPUs();
-        Task<IEnumerable<GPUDto>> ScrapGPUs();
-        Task UpdatePrices();
+        Task CrawlGPUs();
+        Task<IEnumerable<GPUDto>> GetGPUs(string searchPhrase);
         void DeleteGPU(int GPUId);
     }
 }
