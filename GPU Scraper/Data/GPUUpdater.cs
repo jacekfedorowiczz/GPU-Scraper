@@ -60,7 +60,6 @@ namespace GPU_Scraper.Data
                 gpu.HighestPrice = crawledGPU.HighestPrice;
 
             }
-
             return gpu;
         }
     }

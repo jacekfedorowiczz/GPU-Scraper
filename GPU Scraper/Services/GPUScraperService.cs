@@ -5,6 +5,7 @@ using GPU_Scraper.Middlewares.Exceptions;
 using GPU_Scraper.Services.Contracts;
 using GPUScraper.Maps;
 using GPUScraper.Models.Models;
+using GPUScraper.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Text.Json;
@@ -19,8 +20,9 @@ namespace GPU_Scraper.Services
         private readonly GPUCrawler _crawler;
         private readonly GPUUpdater _updater;
         private readonly IMapper _mapper;
+        private readonly IFileService _fileService;
 
-        public GPUScraperService(GPUScraperDbContext dbContext, XkomCrawler xkom, MoreleCrawler morele, GPUCrawler crawler, GPUUpdater updater, IMapper mapper)
+        public GPUScraperService(GPUScraperDbContext dbContext, XkomCrawler xkom, MoreleCrawler morele, GPUCrawler crawler, GPUUpdater updater, IMapper mapper, IFileService fileService)
         {
             _dbContext = dbContext;
             _xkom = xkom;
@@ -28,26 +30,36 @@ namespace GPU_Scraper.Services
             _crawler = crawler;
             _updater = updater;
             _mapper = mapper;
+            _fileService = fileService;
         }
 
-        public async Task<IEnumerable<GPU>> CrawlGPUs()
+        public async Task CrawlGPUs()
         {
-            var crawledGPUs = await GetGPUs();
+            var gpusFromDatabase = await _dbContext.GPUs.ToListAsync();
 
-            if (!crawledGPUs.Any())
+            if (!gpusFromDatabase.Any())
             {
-                throw new Exception();
+                var crawledGPUs = await GetGPUsFromWebsites();
+
+                if (!crawledGPUs.Any())
+                {
+                    throw new Exception();
+                }
+
+                await _dbContext.GPUs.AddRangeAsync(crawledGPUs);
+                await _dbContext.SaveChangesAsync();
             }
-
-            await _dbContext.GPUs.AddRangeAsync(crawledGPUs);
-            await _dbContext.SaveChangesAsync();
-
-            return crawledGPUs;
+            else
+            {
+                await UpdatePrices();
+            }
         }
 
-        public async Task<IEnumerable<GPUDto>> ScrapGPUs()
+        public async Task<IEnumerable<GPUDto>> GetGPUs(string searchPhrase)
         {
-            var GPUs = await _dbContext.GPUs.ToListAsync();
+            var GPUs = await _dbContext.GPUs
+                                    .Where(x => searchPhrase == null || (x.Name.ToLower().Contains(searchPhrase.ToLower())))
+                                    .ToListAsync();
             var result = new List<GPUDto>();
 
             if (!GPUs.Any())
@@ -55,30 +67,32 @@ namespace GPU_Scraper.Services
                 throw new NotFoundException("Nie znaleziono kart w bazie danych! W pierwszej kolejności scrawluj strony internetowe.");
             }
 
-            foreach (var gpu in GPUs)
-            {
-                var dto = _mapper.Map<GPUDto>(gpu);
-                result.Add(dto);
-            }
+            // dodaj paginację
+            // Sortowanie: Nazwa, Cena
+
+
+
+
+            var dto = _mapper.Map<List<GPUDto>>(GPUs);
 
             return result;
         }
 
-        public async Task UpdatePrices()
+        private async Task UpdatePrices()
         {
-            var GPUsFromDatabase = await _dbContext.GPUs.ToListAsync();
-            var crawledGPUs = await GetGPUs();
+            var crawledGPUs = await GetGPUsFromWebsites();
 
-            if (!GPUsFromDatabase.Any())
-            {
-                throw new NotFoundException("Nie znaleziono kart w bazie danych! W pierwszej kolejności scrawluj strony internetowe.");
-            }
-            else if (!crawledGPUs.Any())
+            if (!crawledGPUs.Any())
             {
                 throw new Exception();
             }
 
             var gpusToUpdate = await _updater.UpdateGPUs(crawledGPUs);
+
+            if (!gpusToUpdate.Any())
+            {
+                return;
+            }
 
             foreach (var gpu in gpusToUpdate)
             {
@@ -104,7 +118,7 @@ namespace GPU_Scraper.Services
             _dbContext.SaveChanges();
         }
 
-        private async Task<IEnumerable<GPU>> GetGPUs()
+        private async Task<IEnumerable<GPU>> GetGPUsFromWebsites()
         {
             var xkom = await _xkom.CrawlProducts();
             var morele = await _morele.CrawlProducts();
