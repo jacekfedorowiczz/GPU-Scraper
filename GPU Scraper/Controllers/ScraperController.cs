@@ -2,6 +2,7 @@
 using GPU_Scraper.Middlewares.Exceptions;
 using GPU_Scraper.Services.Contracts;
 using GPUScraper.Models.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GPU_Scraper.Controllers
@@ -12,7 +13,7 @@ namespace GPU_Scraper.Controllers
     {
         private readonly IGPUScraperService _scraperService;
 
-        public ScraperController(IGPUScraperService scraperService )
+        public ScraperController(IGPUScraperService scraperService)
         {
             _scraperService = scraperService;
         }
@@ -32,6 +33,7 @@ namespace GPU_Scraper.Controllers
         }
 
         [HttpDelete]
+        [Authorize(Roles = "Admin")]
         public ActionResult DeleteGPU([FromQuery]int GPUId)
         {
             _scraperService.DeleteGPU(GPUId);

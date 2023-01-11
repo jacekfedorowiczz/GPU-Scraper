@@ -1,0 +1,38 @@
+﻿.index-header{
+    position:relative;
+
+    font-size:36px;
+
+    text-align:center;
+}
+
+.about-project{
+    text-align:justify;
+}
+
+.about-project a{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+span{
+    font-weight:bold;
+}
+
+.footer-links {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.social-link{
+    display: inline;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.footer-autor{
+    text-align:center;
+    font-size:10px;
+}

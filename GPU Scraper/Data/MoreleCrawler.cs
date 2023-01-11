@@ -70,7 +70,7 @@ namespace GPU_Scraper.Data
                             Name = productName,
                             Price = productPrice,
                             Shop = "Morele"
-                        });
+                    });
                 }
             }
 

@@ -49,7 +49,15 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("BlazorClient", builder =>
+    {
+        builder.AllowAnyMethod()
+               .AllowAnyHeader()
+               .AllowAnyOrigin();
+    });
+});
 
 builder.Services.AddDbContext<GPUScraperDbContext>(options =>
 {
@@ -95,6 +103,7 @@ app.UseHttpsRedirection();
 app.UseResponseCaching();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseCors("BlazorClient");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

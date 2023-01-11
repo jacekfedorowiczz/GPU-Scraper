@@ -36,7 +36,7 @@ namespace GPUScraper.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roles", (string)null);
                 });
 
             modelBuilder.Entity("GPUScraper.Entities.User", b =>
@@ -67,7 +67,7 @@ namespace GPUScraper.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("GPU_Scraper.Entities.GPU", b =>
@@ -99,7 +99,7 @@ namespace GPUScraper.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("GPUs");
+                    b.ToTable("GPUs", (string)null);
                 });
 
             modelBuilder.Entity("GPUScraper.Entities.User", b =>
