@@ -43,7 +43,7 @@ namespace GPU_Scraper.Data
             return updatedGPUs;
         }
 
-        private GPU UpdateGPUPrices(GPU gpu, GPU crawledGPU)
+        private static GPU UpdateGPUPrices(GPU gpu, GPU crawledGPU)
         {
             if (gpu.LowestPrice == crawledGPU.LowestPrice && gpu.HighestPrice == crawledGPU.HighestPrice)
             {

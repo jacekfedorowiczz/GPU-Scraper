@@ -6,7 +6,7 @@ namespace GPUScraper.Validators
 {
     public class GPUQueryValidator : AbstractValidator<GPUQuery>
     {
-        private int[] allowedPageSizes = new[] { 5, 10, 15, };
+        private int[] allowedPageSizes = new[] { 4, 8 };
         private string[] allowedSortByColumnNames = new[] { nameof(GPU.Name), nameof(GPU.LowestPrice), nameof(GPU.HighestPrice) };
         public GPUQueryValidator()
         {

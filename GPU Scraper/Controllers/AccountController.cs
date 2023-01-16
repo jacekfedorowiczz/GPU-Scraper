@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GPUScraper.Controllers
 {
     [ApiController]
-    [Route("account")]
+    [Route("api/account")]
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _accountService;

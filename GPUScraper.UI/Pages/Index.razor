@@ -1,9 +1,43 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<PageTitle>GPU Scraper by Jacek Fedorowicz</PageTitle>
 
-<h1>Hello, world!</h1>
+<h3 class="index-header">
+    <p class="greeting"> GPU Scraper </p>
+</h3>
 
-Welcome to your new app.
+<div class="about-project">
+    <p> Projekt powstał w ramach nauki programowania w języku C# oraz frameworku ASP.NET w oparciu o model MVC. Aplikacja pozwala na pobranie cen kart graficznych z dwóch popularnych polskich sklepów internetowych jakimi są
+        <a href="https://www.x-kom.pl">X-Kom</a> oraz <a href="https://www.morele.net">Morele</a>.
+    </p>
+    <p>
+        Poprzez wywołanie odpowiedniego endpointu aplikacja przeszukuje podstrony wyżej wspomnianych sklepów internetowych w celu znalezienia konkretnych produktów a następnie pobiera najważniejszych informacji takie jak nazwa produktu, cena czy zdjęcie.
+    </p>
+    <p>
+        Aplikacji porównuje ceny danego produktu w obu sklepach i odpowiednio przypisuje je do wskazanych pól, jednocześnie zapisując który ze sklepów oferuje niższą cenę za daną kartę graficzną. Na podstawie pobranych informacji zostają utworzone encje bazodanowe, które zostaja zapisane do bazy danych SQL.
+    </p>
+    <p>
+        Użytkownik poprzez wywołanie odpowiedniego endpointa może wyświetlić zawarte w bazie danych karty czy też zaktualizować ceny kart graficznych, które są już w bazie danych. Aplikacja przewiduje także filtrowanie, sortowanie oraz paginację wyników zapytania.
+    </p>
+    <p>
+        Użytkownik może także wyeksportować dane zawarte w bazie danych, które zostaną odpowiednio zserializowane do pliku JSON. Endpoint odpowiadający za tę funkcjonalność mogą wywołać wyłącznie zalogowani użytkownicy, który są autoryzowani na podstawie wartości claima tokenu JWT.
+    </p>
+    <p>
+        Sam widok aplikacji został wykonany w Blazor WebAssembly na podstawie domyślnie udostępnionego widoku, który został poddany pewnym modyfikacjom.
+    </p>
+    <p>
+        Szczegółowa dokumentacja projektu znajduje się w repozytorium udostępnionym na <span>GitHubie</span>.
+    </p>
+</div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+
+<footer>
+    <p class="footer-links">Linki do social mediów:</p>
+    <a class="social-link" href="https://github.com/jacekfedorowiczz/GPU-Scraper" target="_blank">
+        <iconify-icon class="icon" icon="mdi-github" width="40" height="40"></iconify-icon>
+    </a>
+    <a class="social-link" href="https://www.linkedin.com/in/jacek-fedorowicz/" target="_blank">
+        <iconify-icon class="icon" icon="uil-linkedin" width="40" height="40"></iconify-icon>
+    </a>
+    <p class="footer-autor">© 2023 Jacek Fedorowicz</p>
+</footer>

@@ -1,5 +1,6 @@
 ﻿using GPU_Scraper.Entities;
 using GPUScraper.Models.Models;
+using Microsoft.IdentityModel.Tokens;
 
 namespace GPU_Scraper.Data
 {

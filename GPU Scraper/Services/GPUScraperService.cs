@@ -23,7 +23,6 @@ namespace GPU_Scraper.Services
         private readonly GPUCrawler _crawler;
         private readonly GPUUpdater _updater;
         private readonly IMapper _mapper;
-        private readonly IFileService _fileService;
 
         public GPUScraperService(GPUScraperDbContext dbContext, XkomCrawler xkom, MoreleCrawler morele, GPUCrawler crawler, GPUUpdater updater, IMapper mapper, IFileService fileService)
         {
@@ -33,7 +32,6 @@ namespace GPU_Scraper.Services
             _crawler = crawler;
             _updater = updater;
             _mapper = mapper;
-            _fileService = fileService;
         }
 
         public async Task CrawlGPUs()
@@ -83,7 +81,7 @@ namespace GPU_Scraper.Services
                             .Take(query.pageSize)
                             .ToList();
 
-            var totalGPUsCount = GPUs.Count();
+            var totalGPUsCount = GPUs.Count;
 
             if (!GPUs.Any())
             {
