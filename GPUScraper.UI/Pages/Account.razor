@@ -1,7 +1,19 @@
 ﻿@page "/api/account"
+@inherits AccountBase
 
-<h3>Account</h3>
+<PageTitle>Panel logowania</PageTitle>
 
-@code {
+@if (true)
+{
+    <div class="login-panel">
+        <h3 class="login-header">Panel logowania</h3>
+        <input type="email" class="login-email" placeholder="Wprowadź adres e-mail" />
+        <input type="password" class="login-password" placeholder="Wprowadź hasło" />
+        <button type="button" class="login-btn" onclick=""> Zaloguj się </button>
+    </div>
+}
+else
+{
+
 
 }

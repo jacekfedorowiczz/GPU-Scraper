@@ -1,38 +1,31 @@
-﻿.index-header{
-    position:relative;
-
-    font-size:36px;
-
-    text-align:center;
+﻿.index-header {
 }
 
-.about-project{
-    text-align:justify;
+
+.about-project {
+    text-align: justify;
+    text-justify: inter-word;
+    border-bottom: 1px solid #808080;
 }
 
-.about-project a{
-    text-decoration:none;
-    cursor:pointer;
-}
+    .about-project a {
+        color: cornflowerblue;
+        text-decoration: none;
+        font-weight:bold;
+        cursor: pointer;
 
-span{
-    font-weight:bold;
-}
+        transition: 0.3s;
+    }
 
-.footer-links {
+    .about-project a:hover {
+        color: orange;
+    }
+
+span {
     font-weight: bold;
-    font-size: 15px;
 }
 
-.social-link{
-    display: inline;
-}
-
-.icon:hover{
-    color: black;
-}
-
-.footer-autor{
-    text-align:center;
-    font-size:10px;
+p {
+    font-size: 1rem;
+    line-height: 20px;
 }

@@ -1,2 +1,44 @@
-﻿body {
+﻿.login-header {
+    position: center;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
 }
+
+.login-panel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+input {
+    margin-top: 30px;
+    width: 300px;
+    min-height: 40px;
+}
+
+.login-email {
+}
+
+..login-password {
+}
+
+
+.login-btn {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 95px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: darkgray;
+    transition: 0.5s;
+}
+
+    .login-btn:hover {
+        background-color: #3a0647;
+    }

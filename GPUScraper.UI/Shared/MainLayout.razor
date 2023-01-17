@@ -1,13 +1,24 @@
 ﻿@inherits LayoutComponentBase
 
 <div class="page">
-    <div class="sidebar">
+    <nav>
         <NavMenu />
-    </div>
-
+    </nav>
     <main>
         <article class="content px-4">
             @Body
         </article>
     </main>
+    <footer>
+        <div class="links-container">
+            <a class="social-link" href="https://github.com/jacekfedorowiczz/GPU-Scraper" target="_blank">
+                <iconify-icon class="icon" icon="mdi-github" width="40" height="40"></iconify-icon>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/jacek-fedorowicz/" target="_blank">
+                <iconify-icon class="icon" icon="uil-linkedin" width="40" height="40"></iconify-icon>
+            </a>
+        </div>
+        <p class="footer-author">© 2023 Jacek Fedorowicz</p>
+</footer>
 </div>
+

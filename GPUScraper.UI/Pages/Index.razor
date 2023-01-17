@@ -2,42 +2,31 @@
 
 <PageTitle>GPU Scraper by Jacek Fedorowicz</PageTitle>
 
-<h3 class="index-header">
+@*<h3 class="index-header">
     <p class="greeting"> GPU Scraper </p>
-</h3>
+</h3>*@
 
 <div class="about-project">
-    <p> Projekt powstał w ramach nauki programowania w języku C# oraz frameworku ASP.NET w oparciu o model MVC. Aplikacja pozwala na pobranie cen kart graficznych z dwóch popularnych polskich sklepów internetowych jakimi są
-        <a href="https://www.x-kom.pl">X-Kom</a> oraz <a href="https://www.morele.net">Morele</a>.
+    <p>
+        Projekt powstał w ramach nauki programowania w języku <span>C#</span>  oraz frameworku <span>ASP.NET</span> w oparciu o model <span>MVC</span>. Aplikacja pozwala na pobranie cen kart graficznych z dwóch popularnych polskich sklepów internetowych jakimi są
+        <a href="https://www.x-kom.pl" target="_blank">X-Kom</a> oraz <a href="https://www.morele.net" target="_blank">Morele</a>.
     </p>
     <p>
-        Poprzez wywołanie odpowiedniego endpointu aplikacja przeszukuje podstrony wyżej wspomnianych sklepów internetowych w celu znalezienia konkretnych produktów a następnie pobiera najważniejszych informacji takie jak nazwa produktu, cena czy zdjęcie.
+        Aplikacja w oparciu o zewnętrzną bibliotekę <span>HtmlAgilityPack</span> przeszukuje wyżej wymienione sklepy internetowe w celu znalezienia konkretnych produktów a następnie pobiera o nich najważniejsze informacji takie jak nazwa produktu, cena czy zdjęcie.
     </p>
     <p>
-        Aplikacji porównuje ceny danego produktu w obu sklepach i odpowiednio przypisuje je do wskazanych pól, jednocześnie zapisując który ze sklepów oferuje niższą cenę za daną kartę graficzną. Na podstawie pobranych informacji zostają utworzone encje bazodanowe, które zostaja zapisane do bazy danych SQL.
+        Jeżeli dany produkt jest dostępny w obu sklepach, następuje następnie porównanie ceny danego produktu a następnie przypisanie tych cen, jednocześnie zapisując informację o tym, który ze sklepów oferuje niższą cenę za daną kartę graficzną. Na podstawie pobranych informacji zostają utworzone encje bazodanowe, które zostają zapisane do bazy danych <span>SQL</span> aplikacji.
     </p>
     <p>
         Użytkownik poprzez wywołanie odpowiedniego endpointa może wyświetlić zawarte w bazie danych karty czy też zaktualizować ceny kart graficznych, które są już w bazie danych. Aplikacja przewiduje także filtrowanie, sortowanie oraz paginację wyników zapytania.
     </p>
     <p>
-        Użytkownik może także wyeksportować dane zawarte w bazie danych, które zostaną odpowiednio zserializowane do pliku JSON. Endpoint odpowiadający za tę funkcjonalność mogą wywołać wyłącznie zalogowani użytkownicy, który są autoryzowani na podstawie wartości claima tokenu JWT.
+        Użytkownik może także wyeksportować dane zawarte w bazie danych, które zostaną odpowiednio zserializowane do pliku <span>JSON</span>. Endpoint odpowiadający za tę funkcjonalność mogą wywołać wyłącznie zalogowani użytkownicy, który są autoryzowani na podstawie wartości claima tokenu <span>JWT</span>.
     </p>
     <p>
-        Sam widok aplikacji został wykonany w Blazor WebAssembly na podstawie domyślnie udostępnionego widoku, który został poddany pewnym modyfikacjom.
+        Sam widok aplikacji został wykonany w <span>BlazorWebAssembly</span> na podstawie domyślnie udostępnionego widoku, który został poddany pewnym modyfikacjom.
     </p>
     <p>
         Szczegółowa dokumentacja projektu znajduje się w repozytorium udostępnionym na <span>GitHubie</span>.
     </p>
 </div>
-
-
-<footer>
-    <p class="footer-links">Linki do social mediów:</p>
-    <a class="social-link" href="https://github.com/jacekfedorowiczz/GPU-Scraper" target="_blank">
-        <iconify-icon class="icon" icon="mdi-github" width="40" height="40"></iconify-icon>
-    </a>
-    <a class="social-link" href="https://www.linkedin.com/in/jacek-fedorowicz/" target="_blank">
-        <iconify-icon class="icon" icon="uil-linkedin" width="40" height="40"></iconify-icon>
-    </a>
-    <p class="footer-autor">© 2023 Jacek Fedorowicz</p>
-</footer>
