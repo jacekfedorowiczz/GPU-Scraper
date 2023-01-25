@@ -3,18 +3,23 @@ using GPUScraper.UI.Services.Contracts;
 
 namespace GPUScraper.UI.Services
 {
-    public class GPUScraperService : IGPUScraperService
+    public class ScraperService : IScraperService
     {
         public bool IsCrawled { get; set; } = false;
         private readonly HttpClient _httpClient;
 
-        public GPUScraperService(HttpClient httpClient)
+        public ScraperService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
 
         public async Task<bool> CrawlGPUs()
         {
+            if (IsCrawled == true)
+            {
+                return IsCrawled;
+            }
+
             try
             {
                 await _httpClient.GetAsync("api/scraper/crawl");

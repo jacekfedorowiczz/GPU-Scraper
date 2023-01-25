@@ -3,25 +3,14 @@
 
 <PageTitle>GPUScraper | Karty graficzne</PageTitle>
 
-@*<main>
-    <h3 class="mainTitle">Karty graficzne</h3>
+@if(_isCrawled == false)
+{
+    <h3 class="scraper-header">Aby pobrać ceny kart graficznych z bazy danych w pierwszej kolejności <span>należy</span> zescrawlować dane ze sklepów internetowych!</h3>
+    <button type="button" class="btn-crawl">
+        Scrawluj!
+    </button>
+}
+else
+{
 
-    @if (IsCrawled == false)
-    {
-       <div class="">
-            <h4>
-                Aby przeglądać ceny kart graficznych w pierwszej kolejności należy scrawlować dane ze stron internetowych.
-            </h4>
-            <button class="btn-crawl" onclick="CrawlGPUs">Pobierz karty graficzne</button>
-        </div> 
-    }
-    else
-    {
-       <h4 class="graphicsCards"></h4>
-
-
-
-    }
-</main>*@
-
-
+}

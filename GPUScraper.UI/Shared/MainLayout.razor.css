@@ -14,6 +14,7 @@ article{
 }
 
 nav {
+    max-height: 13%;
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
@@ -32,10 +33,11 @@ footer {
 }
 
 .social-link{
-    color: orange;
+    color: white;
+    transition: 0.5s ease;
 }
 
 
 .social-link:hover {
-    color: deepskyblue;
+    color: orange;
 }

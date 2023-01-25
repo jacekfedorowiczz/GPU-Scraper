@@ -4,9 +4,24 @@ namespace GPUScraper.UI.Services
 {
     public class FileService : IFileService
     {
-        public void SerializeToJson()
+        private readonly HttpClient _httpClient;
+
+        public FileService(HttpClient httpClient)
         {
-            throw new NotImplementedException();
+            _httpClient = httpClient;
+        }
+
+        public async void SerializeToJson()
+        {
+            try
+            {
+                await _httpClient.GetAsync("/api/json/get");
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

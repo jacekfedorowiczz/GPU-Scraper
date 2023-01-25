@@ -1,2 +1,24 @@
-﻿body {
+﻿h3{
+    padding: 10px 20px;
+    font-size: 36px;
+    justify-content:center;
+    text-align:center;
 }
+
+.import-to-json-btn {
+    position: absolute;
+    display: inline-block;
+    top: 50vh;
+    left: 50vw;
+    padding: 10px 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    border: none;
+    background-color: darkgray;
+    transition: 0.4s ease-in;
+}
+
+    .import-to-json-btn:hover {
+        color: white;
+        background-color: #3a0647;
+    }
