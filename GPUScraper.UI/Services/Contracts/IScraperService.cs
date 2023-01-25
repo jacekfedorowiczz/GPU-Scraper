@@ -2,7 +2,7 @@
 
 namespace GPUScraper.UI.Services.Contracts
 {
-    public interface IGPUScraperService
+    public interface IScraperService
     {
         Task<bool> CrawlGPUs();
         Task<PageResult<GPUDto>> GetGPUs(GPUQuery query);

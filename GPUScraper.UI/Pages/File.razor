@@ -1,7 +1,13 @@
-﻿@page "/json"
+﻿@page "/api/json"
+@inherits FileBase
 
-<h3>Component</h3>
 
-@code {
-
+@if (true)
+{
+    <h3>Pobierz dane do pliku JSON</h3>
+    <button type="button" class="import-to-json-btn">Pobierz</button>
+}    
+else
+{
+    
 }

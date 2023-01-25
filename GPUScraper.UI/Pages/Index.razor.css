@@ -1,8 +1,21 @@
 ﻿.index-header {
 }
 
+.greeting {
+    padding-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+h4{
+    padding: 2px 0px;
+    font-size: 24px;
+    font-weight:bold;
+}
 
 .about-project {
+    margin: 10px 0px;
     text-align: justify;
     text-justify: inter-word;
     border-bottom: 1px solid #808080;
